@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.result-content {
+    padding: 1rem;
+    margin: 1rem 3rem;
+}
+
+.text-left > .btn {
+    padding-left: 1rem;
+}
+
+.back-btn {
+    margin-left: .5rem;
+    color: gray
+}
+.back-btn:hover {
+    text-decoration: underline;
+    color: blue
+}
+
+.form {
+    margin: 3rem;
+}
+
+.form > p {
+    color: grey;
+    font-size: .8rem;
+}
+
+.title {
+    text-align: center;
+}
