@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let inputTargetPage = document.getElementById("target-page-input");
     let inputQuantity = document.getElementById("post-num");
 
-    let condition = (inputKeyword.value.length > 0 && inputPassword.value.length > 0 && inputTargetPage.value.length > 0 && inputQuantity.value.length > 0);
 
     const checkValidForm = () => {
+        let condition = inputKeyword.value.length > 0 && inputPassword.value.length > 0 && inputTargetPage.value.length > 0 && inputQuantity.value.length > 0;
         if(condition || (inputPassword.hidden && inputKeyword.value.length > 0))
                 document.getElementById("submitBtn").disabled = false;
         else 

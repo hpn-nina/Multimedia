@@ -13,7 +13,7 @@ def index():
 def result():
   option = int(request.form['crawlOptions'])
   
-  if option == CRAWLING_OPTIONS.FACEBOOK.value:
+  if option == CRAWLING_OPTIONS['FACEBOOK']['value']:
     crawl_result = facebook.crawl(request.form['keyword'], request.form['password'], request.form['target-page-input'], request.form['post-num'])
     
     js = open('./static/results.js', 'r')
