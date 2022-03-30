@@ -25,6 +25,13 @@ def result():
       "username": request.form['keyword'],
       "result": crawl_result,
     }
+  elif option == CRAWLING_OPTIONS['RESEARCH_PAPER']['value']:
+    crawl_result = researchPaper.crawler(request.form['keyword'])
+    result_value = {
+      "keyword": request.form['keyword'],
+      "crawlOption": request.form['keyword'],
+      "result": crawl_result,
+    }
   else:
     result_value = {
     "keyword": request.form['keyword'],
