@@ -9,4 +9,6 @@ The crawl function is define in crawler.
 
 In order to reload change after modified HTML, CSS or JS please do a full reload at Ctrl + F5.
 
+For better experience, pls specify your FACEBOOK_USERNAME and FACEBOOK_PASSWORD in local env.
+
 Contact me @lialic for anymore information. Thank you.
