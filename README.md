@@ -1,5 +1,5 @@
 # Multimedia
-This is a repo for our team labs/projects in course Multimeida.\
+This is a repo for our team labs/projects in course Multimedia.\
 Our team consists of 3 person:
 - Huynh Phuong Nhu (lialic)
 - Lam Thanh Tin (thanhtinlam2811)

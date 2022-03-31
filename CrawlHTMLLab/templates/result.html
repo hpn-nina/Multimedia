@@ -21,12 +21,66 @@
         </div>
         <h1 class='text-center'>Result Page</h1>
         <div class='result-content' id="result-content">
+
+
+            <!-- Facbook section -->
             <div id="facebook" hidden>
                 <div class="result-crawlOptions">Type choose: {{result.crawlOption.label}}</div>
                 <div class="target">Your target page: {{result.target}}</div>
                 <div class="account">Your account to crawl: {{result.username}}</div>
-                <div id="result" hidden>Result: {{result.result}}</div>
+                <div id="result" hidden>Result:</div>
+                {%if result.crawlOption.value == 3 %}
+                {%for result in result.result%}
+                    <br>
+                    <div class="card">
+                        <h3 class="card-header"> Post {{ loop.index }}</h3>
+                        <h5 class="card-header"> Content </h5>
+                        <div class="card-body">
+                            <p class="card-text"> <b>Likes:</b> {{result['post_likes']}} </p>
+                            <p class="card-text">{{result['content'][0]}}</p>
+                        </div>
+                        <h5 class="card-header"> {{result['comments_num']}} Comments </h5>
+                        <div class="card-body">
+                        {%for comment in result['comments']%}
+                            <p>
+                                <b>User:</b> {{comment['username']}}
+                                <h6>Comment:</h6> {{comment['comment']}}
+                            </p>
+                        <hr style="width:50%;;margin:5px">
+                        {%endfor%}
+                        </div>
+                    </div>
+                {%endfor%}
+                {%endif%}
             </div>
+            <!-- End -->
+
+
+            <!-- Google Image section-->
+            <div id="google" hidden>
+                <div class="result-keyword">Keyword: {{result.keyword}}</div>
+                <div class="result-crawlOptions">Type choose: {{result.crawlOption.label}}</div>
+                <div id="quantity">Number of images: {{result.quantity}}</div>
+                <div id="result">Result:</div>
+                <div class="row">
+                    {%if result.crawlOption.value == 4 %}
+                    {%for i in result.result%}
+                    <!-- Gallery item -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                      <div class="bg-white rounded shadow-sm"><img src='data:image/png;base64,{{ i.image }}' alt="{{i.title}}" class="img-fluid card-img-top">
+                        <div class="p-4">
+                          <h5> <a class="text-dark">{{i.title}}</a></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End -->
+                    {%endfor%}
+                    {%endif%}
+            </div>
+            <!-- End -->
+
+
+            <!-- Others -->
             <div id="others" hidden>
                 <div class="result-keyword">Keyword: {{result.keyword}}</div>
                 <div class="result-crawlOptions">Type choose: {{result.crawlOption.label}}</div>

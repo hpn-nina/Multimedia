@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let targetPage = document.getElementById("target-page");
     let inputTargetPage = document.getElementById("target-page-input");
     let inputQuantity = document.getElementById("post-num");
+    let labelImageQuantity = document.getElementById("label-quantity");
+    let inputImageQuantity = document.getElementById("quantity");
 
 
     const checkValidForm = () => {
@@ -19,9 +21,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
             document.getElementById("submitBtn").disabled = true;
     }
 
+    const checkValidImageCrawl = () => {
+        let condition = inputKeyword.value.length > 0 && inputImageQuantity.value.length > 0;
+        if(condition)
+                document.getElementById("submitBtn").disabled = false;
+        else 
+            document.getElementById("submitBtn").disabled = true;
+    }
+
     selectCrawlOption.addEventListener("change", () => {
         inputKeyword.disabled = false;
-        inputPassword.hidden = labelPassword.hidden = targetPage.hidden = true;
+        inputPassword.hidden = labelPassword.hidden = targetPage.hidden = inputImageQuantity.hidden = labelImageQuantity.hidden = true;
         let requireField = '<span style="color:red">* </span>';
 
         switch (Number(selectCrawlOption.value)) {
@@ -41,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             case constant.CrawlingOptions.GOOGLE_IMAGE.value:
                 inputKeyword.placeholder = constant.CrawlingOptions.GOOGLE_IMAGE.placeholder;
                 labelKeyword.innerHTML = requireField + constant.CrawlingOptions.GOOGLE_IMAGE.inputLabel;
+                labelImageQuantity.hidden = inputImageQuantity.hidden = false;
                 break;
         }
         inputKeyword.disabled = false;
@@ -51,4 +62,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     inputPassword.addEventListener("keyup", () => checkValidForm())
     inputTargetPage.addEventListener("keyup", () => checkValidForm())
     inputQuantity.addEventListener("keyup", () => checkValidForm())
+
+    // Handle for Google Image search (Require keyword)
+    inputImageQuantity.addEventListener("keyup", () => checkValidImageCrawl())
+    inputKeyword.addEventListener("keyup", () => checkValidImageCrawl())
 });

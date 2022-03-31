@@ -58,7 +58,6 @@ def crawler (keyword, author=True, num_papers=10):
     option.add_argument("--disable-extensions")
     browser = webdriver.Chrome(executable_path="./crawler/driver/chromedriver", options=option)
     search_query = f"{base_url}/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Authors%22:{keyword})&highlight=true&returnFacets=ALL&returnType=SEARCH&matchPubs=true&pageNumber={page_num}"
-    print(search_query)
     browser.get(search_query)
     
     html = browser.page_source

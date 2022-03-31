@@ -1,4 +1,5 @@
 # selenium-related
+from click import password_option
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup as bs
@@ -9,10 +10,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 # other necessary ones
+import urllib.request
 from bs4 import BeautifulSoup as bs
 import pandas as pd
+import json
 import time
 import re
+import datetime
 import copy
 
 import warnings
@@ -20,11 +24,9 @@ warnings.filterwarnings("ignore")
 
 base_url = 'https://m.facebook.com/'
 
-def login(browser, credentials_destination):
-    with open(credentials_destination) as file:
-        email = file.readline().split('=')[1][:-1]
-        password = file.readline().split('=')[1]
-        print(f'Try logging in with email:"{email}" and password:"{password}"')
+def login(browser, credentials):
+    email, password = credentials[0], credentials[1]
+    print(f'Try logging in with account: {email}')
     try:
         wait = WebDriverWait(browser, 50)
         email_field = wait.until(EC.visibility_of_element_located((By.NAME, 'email')))
@@ -34,7 +36,7 @@ def login(browser, credentials_destination):
         pass_field.send_keys(Keys.ENTER)
         time.sleep(3)
         if browser.find_elements(By.CSS_SELECTOR, '#email'):
-            print('Please check your email and password in facebook_credentials.txt!')
+            print('Please check your email and password!')
         else:
             checkpoint(browser)
             print('Logged in.')
@@ -76,8 +78,6 @@ def numExtract(string):
     return 0
     
 
-
-
 def getPostLink(browser, num_post):
     post_links = []
     likes = []
@@ -102,12 +102,25 @@ def getPostLink(browser, num_post):
                 temp = copy.copy(raw_likes[-1])
                 temp.string.replace_with('0')
                 raw_comments_num.append(temp)
+            a = len(raw_likes) - len(raw_links)
+            b = len(raw_comments_num) - len(raw_links)
+            if a < 0:
+                for i in range(-a):
+                    temp = copy.copy(raw_links[-1])
+                    temp.string = '0'
+                    raw_likes.append(temp)
+            if b < 0:
+                for i in range(-b):
+                    temp = copy.copy(raw_links[-1])
+                    temp.string = '0'
+                    raw_likes.append(temp)
+
         except: 
             likes.append(0)
             comments_num.append(0)
             chk = True
 
-        for link in range(len(raw_links[0:len(raw_likes)])):
+        for link in range(len(raw_links[0:len(raw_links)])):
             if len(post_links) > num_post:
                 break
             link_ = base_url + raw_links[link]['href']
@@ -119,6 +132,7 @@ def getPostLink(browser, num_post):
             else: chk = False
         
     return post_links[:num_post], likes[:num_post]#, comments_num[:num_post]
+
 
 
 def checkArr(arr):
@@ -212,7 +226,10 @@ def getPost(browser, ith, likes, comments_num):
     comments = getComment(browser, comments_num)
 
     # fill data into posts list
-    section['content'] = [content_texts[0].text]
+    try:
+        section['content'] = [content_texts[0].text]
+    except:
+        section['content'] = []
     section['comments'] = comments
     section['post_likes'] = likes
     section['comments_num'] = len(comments)
@@ -220,7 +237,7 @@ def getPost(browser, ith, likes, comments_num):
     return section
 
 
-def crawler(credentials_destination, target_page, num_post):
+def crawler(credentials, target_page, num_post):
 
     page_crawl = []
 
@@ -228,6 +245,7 @@ def crawler(credentials_destination, target_page, num_post):
     option = Options()
     option.add_argument("--disable-infobars")
     option.add_argument('headless')
+    option.add_argument('--log-level=3')
     #option.add_argument("start-maximized")
     option.add_argument("--disable-extensions")
 
@@ -237,7 +255,7 @@ def crawler(credentials_destination, target_page, num_post):
     #browser.maximize_window()
 
     # log in
-    login(browser, credentials_destination)
+    login(browser, credentials)
     time.sleep(1)
 
     # open target page
@@ -261,18 +279,15 @@ def convertToJSON(data):
 def crawl(username, password, target_page, number_post=3):
     number_post = int(number_post)
 
-    with open("./crawler/credential/facebook_credentials.txt", 'w') as f:
-        f.write('')
-    with open("./crawler/credential/facebook_credentials.txt", 'a') as f:
-        f.writelines([f'email={username}\n', f'password={password}'])
-
-    # your account email and password destination
-    credentials_destination = './crawler/credential/facebook_credentials.txt'
+    # your account email and password
+    credentials = [username, password]
 
     # your target page
     #target_page = 'https://m.facebook.com/ZendVNHoChiMinh/'
-    target_page = 'https://m.facebook.com/' + target_page.split('/')[-2] + '/'
+    temp = target_page.split('/')
+    if temp[-1] == '': temp.pop(-1)
+    target_page = 'https://m.facebook.com/' + temp[-1] + '/'
 
 
     # crawler
-    return convertToJSON(crawler(credentials_destination, target_page, number_post))
+    return convertToJSON(crawler(credentials, target_page, number_post))
