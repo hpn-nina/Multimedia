@@ -15,8 +15,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     const checkValidForm = () => {
         let condition = inputKeyword.value.length > 0 && inputPassword.value.length > 0 && inputTargetPage.value.length > 0 && inputQuantity.value.length > 0;
-        if(condition || (inputPassword.hidden && inputKeyword.value.length > 0))
-                document.getElementById("submitBtn").disabled = false;
+        if(condition || inputPassword.hidden && inputKeyword.value.length > 0) {
+            console.log(true)
+            document.getElementById("submitBtn").disabled = false;
+        }
         else 
             document.getElementById("submitBtn").disabled = true;
     }
@@ -65,5 +67,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // Handle for Google Image search (Require keyword)
     inputImageQuantity.addEventListener("keyup", () => checkValidImageCrawl())
-    inputKeyword.addEventListener("keyup", () => checkValidImageCrawl())
 });
