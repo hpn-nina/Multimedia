@@ -16,7 +16,7 @@ def result():
   if option == CRAWLING_OPTIONS['FACEBOOK']['value']:
     crawl_result = facebook.crawl(request.form['keyword'], request.form['password'], request.form['target-page-input'], request.form['post-num'])
     
-    js = open('./static/results.js', 'r')
+    js = open('./static/result.js', 'r')
     js_out = f"var crawl_result = JSON.parse('{crawl_result}');"
     
     result_value = {
