@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let labelKeyword = document.getElementById("label-keyword");
     let inputPassword = document.getElementById("password");
     let labelPassword = document.getElementById("label-password");
-    let targetPage = document.getElementById("target-page");
+    let targetPage = document.getElementsByClass("target-page");
     let inputTargetPage = document.getElementById("target-page-input");
     let inputQuantity = document.getElementById("post-num");
     let labelImageQuantity = document.getElementById("label-quantity");

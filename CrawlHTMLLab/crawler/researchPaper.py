@@ -114,22 +114,32 @@ def crawler (keyword, author=True, num_papers=10):
         title = page.find("h1", class_="document-title")
         if title: 
             title = title.find("span").get_text()
-        else: title = ''
+        else: 
+            title = ''
+            
         authors = page.find("span", class_="authors-info-container")
         if authors : 
             authors = authors.find_all("span", class_="authors-info").get_text()
-        else: authors = ''
+        else: 
+            authors = ''
+        
         abstract = page.find("div", class_="u-mb-1")
         if abstract : 
             abstract = abstract.find("div").get_text()
-        else: abstract = ''
+        else: 
+            abstract = ''
+        
         origin = page.find("div", class_="u-pb-1 stats-document-abstract-publishedIn")
         if origin : 
             origin = origin.find("a").get_text()
-        else: origin = ''
+        else: 
+            origin = ''
+            
         date = page.find("div", class_="u-pb-1 doc-abstract-confdate")
-        if date : date.get_text()
-        else: date = ''
+        if date : 
+            date.get_text()
+        else: 
+            date = ''
         
         return {
             "link": paper_link,
@@ -155,11 +165,12 @@ def crawler (keyword, author=True, num_papers=10):
     #option.add_argument("--proxy-server=%s" % proxy)
     option.add_argument("--disable-infobars")
     option.add_argument('headless') # Add to unsee the browser
-    option.add_argument('disable-gpu')
+    option.add_argument('--disable-gpu')
     option.add_argument("--disable-extensions")
+    option.add_argument("--disable-web-security")
     
     current_path = os.getcwd()
-    driver_path = ("./driver/chromedriver.exe" if current_path.find("crawler") else "./crawler/driver/chromedriver.exe")
+    driver_path = ("./driver/chromedriver.exe" if current_path.find("crawler") != -1 else "./crawler/driver/chromedriver.exe")
     browser = webdriver.Chrome(executable_path=driver_path, options=option)
 
     papers = go_to_each_page(browser, num_papers, author)

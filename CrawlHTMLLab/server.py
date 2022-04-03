@@ -29,19 +29,21 @@ def result():
     crawl_result = researchPaper.crawler(request.form['keyword'])
     result_value = {
       "keyword": request.form['keyword'],
-      "crawlOption": request.form['keyword'],
+      "crawlOption": SELECT_VALUE[option],
       "result": crawl_result,
+      "quantity": 10
     }
   else:
     result_value = {
     "keyword": request.form['keyword'],
     "crawlOption": SELECT_VALUE[option],
+    "quantity": 10,
     "result": {
       "json": "json",
     }
   }
   
-  return render_template('result.html', result=result_value)
+  return render_template('result.html', result=result_value, select=SELECT_VALUE, crawlOptions=CRAWLING_OPTIONS)
 
 
 if __name__ == '__main__':

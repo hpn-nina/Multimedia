@@ -1,4 +1,7 @@
-import { ResearchPaperRadio, ResearchPaperInput } from "./taskEnums/researchPaper";
+//import { ResearchPaperRadio, ResearchPaperInput } from "./taskEnums/researchPaper.js";
+
+let ResearchPaperInput = {}
+let ResearchPaperRadio = {}
 
 export const CrawlingOptions = {
     RESEARCH_PAPER: {
