@@ -1,3 +1,4 @@
+from lib2to3.pgen2 import driver
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup as bs
@@ -9,7 +10,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 import re
 import numpy as np
-
+import os
 from decouple import config
 
 
@@ -23,11 +24,19 @@ warnings.filterwarnings("ignore")
 def crawler (keyword, author=True, num_papers=10): 
     
     def scroll(browser):
+        '''
+        Scroll to the bottom of the browser
+        browser: selenium browser
+        '''
         # scroll to the bottom
         browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(0.5)
         
-    def getNumberOfPage(browser):
+    def get_number_of_page(browser):
+        '''
+        From the base browser page get the number of page
+        browser: selenium browser
+        '''
         page = bs(browser.page_source, 'html')
         pagination = page.select_one('div.pagination-bar')
         if(pagination == None):
@@ -36,50 +45,67 @@ def crawler (keyword, author=True, num_papers=10):
             return int(pagination.find_all('a')[-3].get_text())
 
     
-    def goToEachPage(browser, numPage, numPaper, author=True):
-        realPagesNumber = 2
-        pageQuery = "&pageNumber="
-        base_search_query = kwToURL(keyword,author) + pageQuery
+    def go_to_each_page(browser, num_paper, author=True):
+        '''
+        function for going into each page base on the base url
+        browser: selenium browser
+        num_page: number of page
+        num_paper: number of paper
+        author: True if want to get author, False if you want to get all meta data involve
+        '''
+        real_page_number = np.inf
+        search_query = keyword_to_url(keyword,author) + "&pageNumber="
         paper_links = np.array([])
         page = 1
-        loop = 0
         
-        while len(paper_links) < numPaper and loop < 100 and page < realPagesNumber:
-            search_query = base_search_query + f"{page}"
+        while len(paper_links) < num_paper and page < real_page_number:
+            search_query = search_query + f"{page}"
             browser.get(search_query)
-            time.sleep(5)
-            scroll(browser)
             if page == 1:
-                realPagesNumber = min(numPage, getNumberOfPage(browser))
-                
-            papersInPage = getAllPaperLinks(browser, numPaper)
-            paper_links = np.append(paper_links, np.unique(np.array(papersInPage)))
+                time.sleep(3) 
+                real_page_number = get_number_of_page(browser)
+
+            scroll(browser)
+
+            link_in_page = get_links_from_page(browser, num_paper - len(paper_links))
+            paper_links = np.append(paper_links, np.unique(np.array(link_in_page)))
             page += 1
-            loop += 1
             
         papers = []
         paper_links = np.unique(np.array(paper_links))
         for link in paper_links:
-            paper = getInformationOfPaper(browser, link)
+            paper = get_information_from_link(browser, link)
             papers.append(paper)
             
-        return papers
+        return (papers if len(papers) else "There is no paper that fit")
             
-    def getAllPaperLinks(browser, numPaper):
+    def get_links_from_page(browser, num_paper):
+        '''
+        Get all the links in the search page
+        browser: selenium browser
+        num_paper: The number of paper you want to get
+        '''
         paper_links = []
-        while len(paper_links) < numPaper:
-            scroll(browser)
-            page = bs(browser.page_source, 'html')
-            raw_links = page.find_all("a", href=re.compile("document"))
+        
+        scroll(browser)
+        page = bs(browser.page_source, 'html')
+        raw_links = page.find_all("a", href=re.compile("document"))
+        for link in raw_links:
+            href = link.get("href") # Get the href field of all the raw links received
+            if "citations" not in href and href not in paper_links:
+                paper_links.append(href)
+            if len(paper_links) == num_paper:
+                break
             
-            for link in raw_links[len(paper_links):numPaper]:
-                href = link.get("href")
-                if(len(href) < 25):
-                    paper_links.append(href)
         
         return paper_links
     
-    def getInformationOfPaper(browser, paper_link):
+    def get_information_from_link(browser, paper_link):
+        '''
+        Get all the fields from the paper link
+        browser: selenium browser
+        paper_link: The link that fit "/document/" in previous search page
+        '''
         url = base_url[:-1] + paper_link
         browser.get(url)
         time.sleep(2)
@@ -104,6 +130,7 @@ def crawler (keyword, author=True, num_papers=10):
         date = page.find("div", class_="u-pb-1 doc-abstract-confdate")
         if date : date.get_text()
         else: date = ''
+        
         return {
             "link": paper_link,
             'title': title,
@@ -113,14 +140,11 @@ def crawler (keyword, author=True, num_papers=10):
             "date": date
         }
     
-    def kwToURL(keyword, author=True):
+    def keyword_to_url(keyword, author=True):
         string_keyword = keyword.replace(' ', '%20')
-        if author == True:
-            tag = "%22Authors%22"
-        else:
-            tag = "All%20Metadata"
+        tag = ("%22Authors%22" if author else "%22All%20Metadata%22")
         url = base_url + f"/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=({tag}:{string_keyword})"
-        url = "https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:nguyen%20van)"
+        
         return url
     
     papers = []
@@ -130,9 +154,13 @@ def crawler (keyword, author=True, num_papers=10):
     option = Options()
     #option.add_argument("--proxy-server=%s" % proxy)
     option.add_argument("--disable-infobars")
-    option.add_argument('headless')
+    option.add_argument('headless') # Add to unsee the browser
+    option.add_argument('disable-gpu')
     option.add_argument("--disable-extensions")
-    browser = webdriver.Chrome(executable_path="./crawler/driver/chromedriver.exe", options=option)
+    
+    current_path = os.getcwd()
+    driver_path = ("./driver/chromedriver.exe" if current_path.find("crawler") else "./crawler/driver/chromedriver.exe")
+    browser = webdriver.Chrome(executable_path=driver_path, options=option)
 
-    papers = goToEachPage(browser, 1000, num_papers, author)
+    papers = go_to_each_page(browser, num_papers, author)
     return papers
