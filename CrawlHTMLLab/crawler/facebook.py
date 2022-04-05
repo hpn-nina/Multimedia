@@ -286,7 +286,7 @@ def crawl(keyword, username, password, target_page, number_post=3):
     credentials = [username, password]
 
     # your target page
-    #target_page = 'https://m.facebook.com/ZendVNHoChiMinh/'
+
     temp = target_page.split('/')
     if temp[-1] == '': temp.pop(-1)
     target_page = 'https://m.facebook.com/' + temp[-1] + '/'
