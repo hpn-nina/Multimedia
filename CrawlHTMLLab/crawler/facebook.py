@@ -78,7 +78,7 @@ def numExtract(string):
     return 0
     
 
-def getPostLink(browser, num_post):
+def getPostLink(browser, keyword, num_post):
     post_links = []
     likes = []
     comments_num = []
@@ -91,6 +91,7 @@ def getPostLink(browser, num_post):
         page = bs(browser.page_source, 'html')
         time.sleep(1)
         raw_links = page.find_all('a', class_='_5msj')
+        raw_contents = page.find_all('div', class_='_5rgt _5nk5 _5msi')
         chk = False
         try:
             raw_likes, raw_comments_num = page.find_all('div', class_='_1g06'), page.find_all('span', {'data-sigil':'comments-token'})
@@ -123,6 +124,8 @@ def getPostLink(browser, num_post):
         for link in range(len(raw_links[0:len(raw_links)])):
             if len(post_links) > num_post:
                 break
+            if raw_contents[link].text.find(keyword) == -1:
+                continue
             link_ = base_url + raw_links[link]['href']
             if link_ not in post_links:
                 post_links.append(link_)
@@ -237,7 +240,7 @@ def getPost(browser, ith, likes, comments_num):
     return section
 
 
-def crawler(credentials, target_page, num_post):
+def crawler(keyword, credentials, target_page, num_post):
 
     page_crawl = []
 
@@ -262,7 +265,7 @@ def crawler(credentials, target_page, num_post):
     browser.get(target_page) # once logged in, free to open up any target page
 
     # get all post links
-    post_links, likes = getPostLink(browser, num_post)
+    post_links, likes = getPostLink(browser, keyword, num_post)
 
     # get post content and comment
     for link in range(len(post_links)):
@@ -276,7 +279,7 @@ def convertToJSON(data):
     #json_format = json.dumps(data, ensure_ascii=False).encode('utf8')
     return data
 
-def crawl(username, password, target_page, number_post=3):
+def crawl(keyword, username, password, target_page, number_post=3):
     number_post = int(number_post)
 
     # your account email and password
@@ -290,4 +293,4 @@ def crawl(username, password, target_page, number_post=3):
 
 
     # crawler
-    return convertToJSON(crawler(credentials, target_page, number_post))
+    return convertToJSON(crawler(keyword, credentials, target_page, number_post))
