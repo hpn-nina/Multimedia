@@ -1,12 +1,12 @@
 import * as constant from './enums/constant.js';
 
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("DOMContentLoaded", function(event) {
     let selectCrawlOption = document.getElementById("crawlOptions");
     let inputKeyword = document.getElementById("keyword");
     let labelKeyword = document.getElementById("label-keyword");
     let inputPassword = document.getElementById("password");
     let labelPassword = document.getElementById("label-password");
-    let targetPage = document.getElementById("target-page");
+    let targetPage = document.getElementsByClass("target-page");
     let inputTargetPage = document.getElementById("target-page-input");
     let inputQuantity = document.getElementById("post-num");
     let labelImageQuantity = document.getElementById("label-quantity");
@@ -15,17 +15,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     const checkValidForm = () => {
         let condition = inputKeyword.value.length > 0 && inputPassword.value.length > 0 && inputTargetPage.value.length > 0 && inputQuantity.value.length > 0;
-        if(condition || (inputPassword.hidden && inputKeyword.value.length > 0))
-                document.getElementById("submitBtn").disabled = false;
-        else 
+        if (condition || inputPassword.hidden && inputKeyword.value.length > 0) {
+            document.getElementById("submitBtn").disabled = false;
+        } else
             document.getElementById("submitBtn").disabled = true;
     }
 
     const checkValidImageCrawl = () => {
         let condition = inputKeyword.value.length > 0 && inputImageQuantity.value.length > 0;
-        if(condition)
-                document.getElementById("submitBtn").disabled = false;
-        else 
+        if (condition)
+            document.getElementById("submitBtn").disabled = false;
+        else
             document.getElementById("submitBtn").disabled = true;
     }
 
@@ -64,6 +64,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     inputQuantity.addEventListener("keyup", () => checkValidForm())
 
     // Handle for Google Image search (Require keyword)
-    inputImageQuantity.addEventListener("keyup", () => checkValidImageCrawl())
-    inputKeyword.addEventListener("keyup", () => checkValidImageCrawl())
+    //inputImageQuantity.addEventListener("keyup", () => checkValidImageCrawl())
 });
