@@ -1,19 +1,34 @@
+from taskEnums import facebook, news, researchPaper, googleImage
+
 CRAWLING_OPTIONS = {
     'RESEARCH_PAPER': {
         'value': 1,
-        'label': 'Research Paper'
+        'label': 'Research Paper',
+        'fields': {
+            "radio": researchPaper.REASEARCH_PAPER_RADIO,
+            "input": researchPaper.RESEARCH_PAPER_INPUT
+        }
     },
     'NEWS': {
         'value': 2,
-        'label': 'News'
+        'label': 'News',
+        "fields": {
+            "input": news.NEWS_INPUT
+        }
     },
     'FACEBOOK': {
         'value': 3,
-        'label': 'Facebook'
+        'label': 'Facebook',
+        "fields": {
+            "input": facebook.FACEBOOK_INPUT
+        }
     },
     'GOOGLE_IMAGE': {
         'value': 4,
-        'label': 'Google Image'
+        'label': 'Google Image',
+        "fields": {
+            "input": googleImage.GOOGLE_IMAGE_INPUT
+        }
     }
 }
 

@@ -64,5 +64,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     inputQuantity.addEventListener("keyup", () => checkValidForm())
 
     // Handle for Google Image search (Require keyword)
-    //inputImageQuantity.addEventListener("keyup", () => checkValidImageCrawl())
+    inputImageQuantity.addEventListener("keyup", () => checkValidImageCrawl())
 });

@@ -43,7 +43,7 @@ def result():
     }
   }
   
-  return render_template('result.html', result=result_value, select=SELECT_VALUE, crawlOptions=CRAWLING_OPTIONS)
+  return render_template('result.html', result=result_value, select=SELECT_VALUE, crawlOption=SELECT_VALUE[option], isRadioSelect=False)
 
 
 if __name__ == '__main__':

@@ -16,37 +16,55 @@
         <h1 class='title'>Search Page</h1>
         <form action="/result" method="post" class='form'>
             <p>Please enter a crawling option and a keyword.</p>
+            <div class="row">
+                <div class="col">
+                    <label for="crawlOptions"><span style="color:red">* </span>Crawling Option</label>
+                    <select class="form-control" id="crawlOptions" name="crawlOptions">
+                        <option value="" selected disabled>Choose here</option>
+                        {%for option in crawlOptions%}
+                            <option value="{{crawlOptions[option].value}}">{{{crawlOptions[option].label}}</option>
+                        {%endfor%}
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                {%if "radio" in crawlOptions["fields"]%}
+                    {%for radioButtons in crawlOptions["fields"]["radio"]%}
+                        <div class='row-col'>
+                            {%for radio in radioButtons["value"]%}
+                                <div class="col">
+                                    <label for={{radio.name}}>{{radio.label}}</label>    
+                                    <input type="radio" name={{radio.name}}/>
+                                </div>
+                            {%endfor%}
+                        </div>
+                    {%endfor%}
+                {%endif%}
+            </div>
             <div class='row'>
                 <div class="form-group col">
                     <label for="crawlOptions"><span style="color:red">* </span>Crawling Option</label>
                     <select class="form-control" id="crawlOptions" name="crawlOptions">
                         <option value="" selected disabled hidden>Choose here</option>
-                        {%for option in crawlOptions%}
-                            <option value="{{crawlOptions[option].value}}">{{crawlOptions[option].label}}</option>
+                        {%for option in crawlOption%}
+                            <option value="{{option.value}}">{{option.label}}</option>
                         {%endfor%}
                     </select>
                 </div>
                 <div class="form-group col">
-                    <label for="keyword" id="label-keyword"><span style="color:red">* </span>Keyword</label>
-                    <input type="text" disabled class="form-control" id="keyword" name="keyword" placeholder="">
-                    <label for="password" id="label-password" hidden><span style="color:red">* </span>Password</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" hidden>
-                    <label for="quantity" id="label-quantity" hidden><span style="color:red">* </span>Quantity</label>
-                    <input type="quantity" class="form-control" id="quantity" name="quantity" placeholder="Enter number of images to crawl" hidden>
+                    {%if "input" in crawlOptions["fields"]%}
+                        {%for input in crawlOptions["fields"]["input"]%}
+                            <label for={{input["name"]}}>
+                                {%if input["required"]%}
+                                    <span style="color:red">* </span>
+                                {%endif%}
+                                {{input["label"]}}
+                            </label>
+                            <input type={{input["type"]}} placeholder={{input["target-page-input"]}}} id={{input["name"]}}/>
+                        {%endfor%}
+                    {%endif%}
                 </div>
             </div>
-            <div class="row" class="target-page" hidden>
-                <div class="col" class="target-page">
-                    <label><span style="color:red">* </span>Target page</label> 
-                    <input type="text" class="form-control" id="target-page-input" name="target-page-input" placeholder="Enter your target page">
-                </div>
-                
-                <div class="col" class="target-page">
-                    <label><span style="color:red">* </span>Quantity <em>(default is 3)</em></label> 
-                    <input type="text" class="form-control" id="post-num" name="post-num" placeholder="Enter number of post to crawl">
-                </div>
-            </div>
-            <div class="row flexible-fields"></div>
             <br>
             <div class='row'>
                 <div class='col text-center'>
