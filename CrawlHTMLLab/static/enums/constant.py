@@ -1,4 +1,4 @@
-from taskEnums import facebook, news, researchPaper, googleImage
+from static.enums.taskEnums import facebook, news, researchPaper, googleImage
 
 CRAWLING_OPTIONS = {
     'RESEARCH_PAPER': {

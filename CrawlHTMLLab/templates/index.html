@@ -16,55 +16,100 @@
         <h1 class='title'>Search Page</h1>
         <form action="/result" method="post" class='form'>
             <p>Please enter a crawling option and a keyword.</p>
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col">
                     <label for="crawlOptions"><span style="color:red">* </span>Crawling Option</label>
                     <select class="form-control" id="crawlOptions" name="crawlOptions">
                         <option value="" selected disabled>Choose here</option>
                         {%for option in crawlOptions%}
-                            <option value="{{crawlOptions[option].value}}">{{{crawlOptions[option].label}}</option>
+                            <option value={{ crawlOptions[option].value }}>{{ crawlOptions[option].label }}</option>
                         {%endfor%}
                     </select>
                 </div>
+                <div class="col">
+                    <label for="keyword"><span style="color:red">* </span>Keyword</label>
+                    <input type='text' class="text-box primary w-100 h-80" id='keyword' placeholder="Enter your keyword to search"/>
+                </div>
             </div>
-            <div class="row">
-                {%if "radio" in crawlOptions["fields"]%}
-                    {%for radioButtons in crawlOptions["fields"]["radio"]%}
-                        <div class='row-col'>
-                            {%for radio in radioButtons["value"]%}
-                                <div class="col">
-                                    <label for={{radio.name}}>{{radio.label}}</label>    
-                                    <input type="radio" name={{radio.name}}/>
-                                </div>
-                            {%endfor%}
+            <div class="row research-paper-area">
+                {%if "radio" in crawlOptions["RESEARCH_PAPER"]["fields"]%}
+                    {%for radioButtons in crawlOptions["RESEARCH_PAPER"]["fields"]["radio"]%}
+                        <div class='row-col-2 mr-4'>
+                                <span>
+                                    {%if crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons].required %}
+                                        <span style="color:red">* </span>
+                                    {%endif%}
+                                    {{crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons].label}}
+                                </span>
+                                {%for radio in crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons]["value"]%}
+                                    <div class="col">
+                                        <label for="{{radio.value}}">{{radio.label}}</label>    
+                                        <input type="radio" name="{{radioButtons.name}}" id="{{radio.value}}"/>
+                                    </div>
+                                {%endfor%}
                         </div>
                     {%endfor%}
                 {%endif%}
-            </div>
-            <div class='row'>
-                <div class="form-group col">
-                    <label for="crawlOptions"><span style="color:red">* </span>Crawling Option</label>
-                    <select class="form-control" id="crawlOptions" name="crawlOptions">
-                        <option value="" selected disabled hidden>Choose here</option>
-                        {%for option in crawlOption%}
-                            <option value="{{option.value}}">{{option.label}}</option>
-                        {%endfor%}
-                    </select>
-                </div>
-                <div class="form-group col">
-                    {%if "input" in crawlOptions["fields"]%}
-                        {%for input in crawlOptions["fields"]["input"]%}
-                            <label for={{input["name"]}}>
-                                {%if input["required"]%}
-                                    <span style="color:red">* </span>
-                                {%endif%}
-                                {{input["label"]}}
-                            </label>
-                            <input type={{input["type"]}} placeholder={{input["target-page-input"]}}} id={{input["name"]}}/>
+                <div class="row-col mr-5">
+                    {%if "input" in crawlOptions["RESEARCH_PAPER"]["fields"]%}
+                        {%for input in crawlOptions["RESEARCH_PAPER"]["fields"]["input"]%}
+                                <label class="col">
+                                    {%if crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["required"]%}
+                                        <span style="color:red">* </span>
+                                    {%endif%}
+                                    {{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["label"]}}
+                                </label>
+                                <input class="col" type={{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["FACEBOOK"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["FACEBOOK"]["fields"]["input"][input]["name"]}}"/>
                         {%endfor%}
                     {%endif%}
                 </div>
             </div>
+            <div class="row facebook-area">
+                <div class="row-col mr-5">
+                    {%if "input" in crawlOptions["FACEBOOK"]["fields"]%}
+                        {%for input in crawlOptions["FACEBOOK"]["fields"]["input"]%}
+                                <label class="col">
+                                    {%if crawlOptions["FACEBOOK"]["fields"]["input"][input]["required"]%}
+                                        <span style="color:red">* </span>
+                                    {%endif%}
+                                    {{crawlOptions["FACEBOOK"]["fields"]["input"][input]["label"]}}
+                                </label>
+                                <input class="col" type={{crawlOptions["FACEBOOK"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["name"]}}"/>
+                        {%endfor%}
+                    {%endif%}
+                </div>
+            </div>
+            <div class="row news-area">
+                <div class="row-col mr-5">
+                    {%if "input" in crawlOptions["NEWS"]["fields"]%}
+                        {%for input in crawlOptions["NEWS"]["fields"]["input"]%}
+                                <label class="col">
+                                    {%if crawlOptions["NEWS"]["fields"]["input"][input]["required"]%}
+                                        <span style="color:red">* </span>
+                                    {%endif%}
+                                    {{crawlOptions["NEWS"]["fields"]["input"][input]["label"]}}
+                                </label>
+                                <input class="col" type={{crawlOptions["NEWS"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["NEWS"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["NEWS"]["fields"]["input"][input]["name"]}}"/>
+                        {%endfor%}
+                    {%endif%}
+                </div>
+            </div>
+            <div class="row google-image-area">
+                <div class="row-col mr-5">
+                    {%if "input" in crawlOptions["GOOGLE_IMAGE"]["fields"]%}
+                        {%for input in crawlOptions["GOOGLE_IMAGE"]["fields"]["input"]%}
+                                <label class="col">
+                                    {%if crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["required"]%}
+                                        <span style="color:red">* </span>
+                                    {%endif%}
+                                    {{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["label"]}}
+                                </label>
+                                <input class="col" type={{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["name"]}}"/>
+                        {%endfor%}
+                    {%endif%}
+                </div>
+            </div>
+
             <br>
             <div class='row'>
                 <div class='col text-center'>

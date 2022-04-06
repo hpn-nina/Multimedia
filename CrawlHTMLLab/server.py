@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from crawler import facebook, images, news, researchPaper
 from static.enums.constant import CRAWLING_OPTIONS, SELECT_VALUE
-
+from decouple import config
 
 app = Flask(__name__)
 
@@ -31,7 +31,8 @@ def result():
       "keyword": request.form['keyword'],
       "crawlOption": SELECT_VALUE[option],
       "result": crawl_result,
-      "quantity": 10
+      "quantity": 10,
+      "baseUrl": config('BASE_URL')
     }
   else:
     result_value = {

@@ -1,4 +1,5 @@
-REASEARCH_PAPER_RADIO = [{
+REASEARCH_PAPER_RADIO = {
+1: {
     "label": "Is author or keyword",
     "name": 'author',
     "value": [{
@@ -12,7 +13,7 @@ REASEARCH_PAPER_RADIO = [{
     ],
     "required": True
 },
-{
+2: {
     "label": "Which site you want to crawl from?",
     "name": 'site',
     "value": [{
@@ -31,12 +32,14 @@ REASEARCH_PAPER_RADIO = [{
         }
     ],
     "required": False
-}]
+}}
 
-RESEARCH_PAPER_INPUT = [{
+RESEARCH_PAPER_INPUT = {
+    1: {
     "label": "Number of papers to crawl",
     "name": 'quantity',
     "defaultValue": '',
     "placeholder": 'Enter number of paper you want to crawl',
-    "required": False
-}]
+    "required": False,
+    }
+}

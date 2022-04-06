@@ -1,4 +1,5 @@
-FACEBOOK_INPUT = [{
+FACEBOOK_INPUT = {
+1: {
     "label": "Number of posts to crawl",
     "name": 'quantity',
     "defaultValue": '',
@@ -6,7 +7,7 @@ FACEBOOK_INPUT = [{
     "required": False,
     "type": "number"
 },
-{
+2: {
     "label": "Username",
     "name": "username",
     "defaultValue": "",
@@ -14,7 +15,7 @@ FACEBOOK_INPUT = [{
     "required": True,
     "type": "text"
 },
-{
+3: {
     "label": "Password",
     "name": "password",
     "defaultValue": "",
@@ -22,17 +23,17 @@ FACEBOOK_INPUT = [{
     "required": True,
     "type": "password"
 },
-{
+4: {
     "label": "Target Page",
     "name": "target-page-input",
     "defaultValue": "",
     "placeholder": "Enter your target page",
     "required": True,
     "type": "text"
-}]
+}}
 
-FACEBOOK_RADIO = [{
-    {
+FACEBOOK_RADIO = {
+1:    {
     "label": "Is all or keyword",
     "name": 'isKeyword',
     "value": [{
@@ -46,4 +47,4 @@ FACEBOOK_RADIO = [{
     ],
     "required": True
 }
-}]
+}

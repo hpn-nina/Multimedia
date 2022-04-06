@@ -31,8 +31,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     selectCrawlOption.addEventListener("change", () => {
         inputKeyword.disabled = false;
-        inputPassword.hidden = labelPassword.hidden = targetPage.hidden = inputImageQuantity.hidden = labelImageQuantity.hidden = true;
-        let requireField = '<span style="color:red">* </span>';
 
         switch (Number(selectCrawlOption.value)) {
             case constant.CrawlingOptions.RESEARCH_PAPER.value:
