@@ -131,18 +131,10 @@ def getPostLink(browser, keyword, num_post):
                 post_links.append(link_)
             if not chk:
                 likes.append(numExtract(raw_likes[link].text))
-                #comments_num.append(numExtract(raw_comments_num[link].text))
+
             else: chk = False
         
-    return post_links[:num_post], likes[:num_post]#, comments_num[:num_post]
-
-
-
-def checkArr(arr):
-    if len(arr) == 0:
-        return 'null'
-    return arr[0].text
-
+    return post_links[:num_post], likes[:num_post]
 
 def getComment(browser, num_comment):
     # scroll to load comment
@@ -157,14 +149,11 @@ def getComment(browser, num_comment):
             af0 = len(raw_comments)
             if af0 == 0: return []
             if af0 < num_comment and bf0 != af0:
-                #if bf0 == af0: 
-                #    switch = False
-                #else:
-                    load_more = browser.find_elements(By.CLASS_NAME, '_108_')[0]
-                    load_more.click()
-                    time.sleep(1)
-                    scroll(browser)
-                    print('Loading comments...')
+                load_more = browser.find_elements(By.CLASS_NAME, '_108_')[0]
+                load_more.click()
+                time.sleep(1)
+                scroll(browser)
+                print('Loading comments...')
             else: 
                 try:
                     # load reply comments
@@ -214,7 +203,6 @@ def getPost(browser, ith, likes, comments_num):
                'comments':[],
                'post_likes': likes,
                'comments_num': comments_num}
-    #content = []
 
 
     print(f'Crawling {ith}th post.')
@@ -223,7 +211,6 @@ def getPost(browser, ith, likes, comments_num):
 
     # get post content
     content_texts = post.findChildren('div', class_='_5rgt _5nk5')
-    #content.append()
 
     # get post comment --> get user name, id and comment
     comments = getComment(browser, comments_num)
@@ -249,13 +236,11 @@ def crawler(keyword, credentials, target_page, num_post):
     option.add_argument("--disable-infobars")
     option.add_argument('headless')
     option.add_argument('--log-level=3')
-    #option.add_argument("start-maximized")
     option.add_argument("--disable-extensions")
 
     # open Facebook
     browser = webdriver.Chrome(executable_path="./crawler/driver/chromedriver", options=option)
     browser.get("https://facebook.com")
-    #browser.maximize_window()
 
     # log in
     login(browser, credentials)
@@ -273,24 +258,17 @@ def crawler(keyword, credentials, target_page, num_post):
         page_crawl.append(getPost(browser, link+1, likes[link], 9999))
     print(page_crawl)
     return page_crawl
-    #time.sleep(5)
 
 def convertToJSON(data):
-    #json_format = json.dumps(data, ensure_ascii=False).encode('utf8')
-    return data
+    json_format = json.dumps(data, ensure_ascii=False).encode('utf8')
+    return json_format
 
 def crawl(keyword, username, password, target_page, number_post=3):
-    number_post = int(number_post)
-
-    # your account email and password
-    credentials = [username, password]
 
     # your target page
-
     temp = target_page.split('/')
     if temp[-1] == '': temp.pop(-1)
     target_page = 'https://m.facebook.com/' + temp[-1] + '/'
 
-
     # crawler
-    return convertToJSON(crawler(keyword, credentials, target_page, number_post))
+    return convertToJSON(crawler(keyword, [username, password], target_page, number_post))
