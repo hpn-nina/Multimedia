@@ -63,7 +63,7 @@ def kwToURL(keyword):
     return url
 
 
-def crawler(keyword, quantity):
+def crawler(keyword, quantity=10):
     
 
     # set options as you wish
@@ -84,15 +84,3 @@ def crawler(keyword, quantity):
     images = getImage(browser, quantity)
 
     return images
-    #time.sleep(5)
-
-def convertToJSON(data):
-    #json_format = json.dumps(data, ensure_ascii=False).encode('utf8')
-    return data
-
-def crawl(keyword, quantity=3):
-    quantity = int(quantity)
-
-
-    # crawler
-    return convertToJSON(crawler(keyword, quantity))

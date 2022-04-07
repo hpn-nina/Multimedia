@@ -73,10 +73,10 @@
             {%if result.crawlOption.value == crawlOptions['RESEARCH_PAPER'].value%}
                 <div class="result-keyword">Keyword: {{result.keyword}}</div>
                 <div class="result-crawlOptions">Type choose: {{result.crawlOption.label}}</div>
-                <div id="result">Result: 
+                <div id="result" class="mt-5">Result: 
                     {%for i in result.result%}
                         <div class="card">
-                            <h3 class="card-header"> <a href={{result.base_url + i.link}}>{{i.title}}</a></h3>
+                            <h3 class="card-header"> <a href={{result.baseUrl + i.link}}>{{i.title}}</a></h3>
                             <div class="card-body">
                                 <p class="card-text"> <b>Authors:</b> {{i.authors}} </p>
                                 <p class="card-text"> <b>Abstract:</b> {{i.abstract}} </p>
