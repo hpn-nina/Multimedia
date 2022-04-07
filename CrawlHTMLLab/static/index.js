@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
 
     const checkValidFacebookForm = () => {
-        if (document.querySelector('.facebook-area').hidden !== True) {
+        if (document.querySelector('.facebook-area').hidden !== true) {
             let condition = inputKeyword && inputUsername && inputPassword && inputTargetPage;
             if (condition)
                 document.querySelector('#submitBtn').disabled = true;
