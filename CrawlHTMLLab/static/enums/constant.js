@@ -13,27 +13,31 @@ export const CrawlingOptions = {
             radio: ResearchPaperRadio,
             input: ResearchPaperInput
         },
-        name: ""
+        name: "",
+        area: ".research-paper-area"
     },
     NEWS: {
         value: 2,
         label: 'News',
         placeholder: 'Enter keyword',
         inputLabel: 'Keyword',
-        name: ""
+        name: "",
+        area: ".news-area"
     },
     FACEBOOK: {
         value: 3,
         label: 'Facebook',
         placeholder: 'Enter username',
         inputLabel: 'Username',
-        name: ""
+        name: "",
+        area: ".facebook-area"
     },
     GOOGLE_IMAGE: {
         value: 4,
         label: 'Google Image',
         placeholder: 'Enter keyword',
         inputLabel: 'Keyword',
-        name: ""
+        name: "",
+        area: ".google-image-area"
     }
 }
