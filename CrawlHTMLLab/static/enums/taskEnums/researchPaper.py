@@ -37,7 +37,7 @@ REASEARCH_PAPER_RADIO = {
 RESEARCH_PAPER_INPUT = {
     1: {
     "label": "Number of papers to crawl",
-    "name": 'quantity',
+    "name": 'quantity-research-paper',
     "defaultValue": '',
     "placeholder": 'Enter number of paper you want to crawl',
     "required": False,

@@ -7,7 +7,7 @@ CRAWLING_OPTIONS = {
         'fields': {
             "radio": researchPaper.REASEARCH_PAPER_RADIO,
             "input": researchPaper.RESEARCH_PAPER_INPUT
-        }
+        },
     },
     'NEWS': {
         'value': 2,
@@ -20,7 +20,8 @@ CRAWLING_OPTIONS = {
         'value': 3,
         'label': 'Facebook',
         "fields": {
-            "input": facebook.FACEBOOK_INPUT
+            "input": facebook.FACEBOOK_INPUT,
+            "radio": facebook.FACEBOOK_RADIO
         }
     },
     'GOOGLE_IMAGE': {

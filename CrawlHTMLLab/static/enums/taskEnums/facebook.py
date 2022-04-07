@@ -1,7 +1,7 @@
 FACEBOOK_INPUT = {
 1: {
     "label": "Number of posts to crawl",
-    "name": 'quantity',
+    "name": 'quantity-facebook',
     "defaultValue": '',
     "placeholder": 'Enter number of posts you want to crawl',
     "required": False,
