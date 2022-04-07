@@ -48,13 +48,13 @@ def result():
     }
   else:
     # Section for news
+    quantity = (10 if request.form['quantity-news'] == '' else int(request.form['quantity-news']))
+    crawl_result = news.crawler(request.form['keyword'], quantity)
     result_value = {
     "keyword": request.form['keyword'],
     "crawlOption": SELECT_VALUE[option],
     "quantity": 10,
-    "result": {
-      "json": "json",
-    }
+    "result": crawl_result
   }
   
   return render_template('result.html', result=result_value, 
