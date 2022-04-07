@@ -256,12 +256,8 @@ def crawler(keyword, credentials, target_page, num_post):
     for link in range(len(post_links)):
         browser.get(post_links[link])
         page_crawl.append(getPost(browser, link+1, likes[link], 9999))
-    print(page_crawl)
+    
     return page_crawl
-
-def convertToJSON(data):
-    json_format = json.dumps(data, ensure_ascii=False).encode('utf8')
-    return json_format
 
 def crawl(keyword, username, password, target_page, number_post=3):
 
@@ -271,4 +267,4 @@ def crawl(keyword, username, password, target_page, number_post=3):
     target_page = 'https://m.facebook.com/' + temp[-1] + '/'
 
     # crawler
-    return convertToJSON(crawler(keyword, [username, password], target_page, number_post))
+    return crawler(keyword, [username, password], target_page, number_post)
