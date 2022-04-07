@@ -22,7 +22,8 @@ def result():
     result_value = {
       "target": request.form['target-page-input'],
       "crawlOption": SELECT_VALUE[option],
-      "username": request.form['keyword'],
+      "username": request.form['username'],
+      "keyword": request.form['keyword'],
       "result": crawl_result,
       "quantity": quantity
     }
