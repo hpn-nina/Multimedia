@@ -57,7 +57,7 @@ def result():
     result_value = {
     "keyword": request.form['keyword'],
     "crawlOption": SELECT_VALUE[option],
-    "quantity": 10,
+    "quantity": quantity,
     "result": crawl_result
   }
   
