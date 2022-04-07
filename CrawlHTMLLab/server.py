@@ -18,12 +18,13 @@ def result():
   if option == CRAWLING_OPTIONS['FACEBOOK']['value']:
     quantity = (10 if request.form['quantity-facebook'] == '' else int(request.form['quantity-facebook']))
     crawl_result = facebook.crawl(request.form['keyword'], request.form['username'], request.form['password'], request.form['target-page-input'], quantity)
-    
+    print(crawl_result)
     result_value = {
       "target": request.form['target-page-input'],
       "crawlOption": SELECT_VALUE[option],
       "username": request.form['keyword'],
       "result": crawl_result,
+      "quantity": quantity
     }
   
   elif option == CRAWLING_OPTIONS['RESEARCH_PAPER']['value']:
@@ -35,7 +36,8 @@ def result():
       "keyword": request.form['keyword'],
       "crawlOption": SELECT_VALUE[option],
       "result": crawl_result,
-      "baseUrl": config('IEEE_BASE_URL')
+      "baseUrl": config('IEEE_BASE_URL'),
+      "quantity": quantity
     }
     
   elif option == CRAWLING_OPTIONS['GOOGLE_IMAGE']['value']:
@@ -45,16 +47,17 @@ def result():
       "keyword": request.form['keyword'],
       "crawlOption": SELECT_VALUE[option],
       "result": crawl_result,
+      "quantity": quantity
     }
   else:
     # Section for news
+    quantity = (10 if request.form['quantity-news'] == '' else int(request.form['quantity-news']))
+    crawl_result = news.crawler(request.form['keyword'], quantity)
     result_value = {
     "keyword": request.form['keyword'],
     "crawlOption": SELECT_VALUE[option],
     "quantity": 10,
-    "result": {
-      "json": "json",
-    }
+    "result": crawl_result
   }
   
   return render_template('result.html', result=result_value, 

@@ -117,15 +117,23 @@ def crawler (keyword, author=True, num_papers=10):
         else: 
             title = ''
             
-        authors = page.find("span", class_="authors-info-container")
+        authors = page.find("div", class_="authors-info-container overflow-ellipsis text-base-md-lh authors-minimized")
+        list_authors = []
         if authors : 
-            authors = authors.find_all("span", class_="authors-info").get_text()
+            authors = authors.find_all("span", class_="authors-info")
+            for author in authors:
+                author = author.find("span", class_="blue-tooltip")
+                author = author.find("a")
+                author = author.find("span").get_text()
+                list_authors.append(author)
         else: 
             authors = ''
+        authors = list_authors
         
-        abstract = page.find("div", class_="u-mb-1")
+        abstract = page.find("div", class_="abstract-text row")
         if abstract : 
-            abstract = abstract.find("div").get_text()
+            abstract = abstract.find("div", class_="u-mb-1").get_text()
+            abstract = abstract[10:]
         else: 
             abstract = ''
         
@@ -137,9 +145,16 @@ def crawler (keyword, author=True, num_papers=10):
             
         date = page.find("div", class_="u-pb-1 doc-abstract-confdate")
         if date : 
-            date.get_text()
+            date = date.get_text()
         else: 
             date = ''
+            
+        publisher = page.find("span", class_="text-base-md-lh publisher-info-container black-tooltip")
+        publisher = publisher.find("span")
+        publisher = publisher.find("span")
+        publisher = publisher.find_all("span")
+        publisher = publisher[1].get_text()
+        
         
         return {
             "link": paper_link,
@@ -147,7 +162,8 @@ def crawler (keyword, author=True, num_papers=10):
             'authors': authors,
             'abstract': abstract,
             "origin": origin,
-            "date": date
+            "date": date,
+            "publisher": publisher
         }
     
     def keyword_to_url(keyword, author=True):
