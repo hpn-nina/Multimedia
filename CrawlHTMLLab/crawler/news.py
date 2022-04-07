@@ -111,6 +111,8 @@ def getFullArticle(link):
     return article
 
 
+keyword_ = "thích"
+link_='https://vnexpress.net/sat-thu-thich-lo-minh-tren-amazon-4444751.html'
 def crawl(keyword, quantity):
     full = []
     getLink(keyword_, quantity)
@@ -118,5 +120,6 @@ def crawl(keyword, quantity):
         full.append(getFullArticle(crawl_))
     return full
 
+print(crawl(keyword_, 3))
 
 
