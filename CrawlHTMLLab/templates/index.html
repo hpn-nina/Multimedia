@@ -28,23 +28,23 @@
                 </div>
                 <div class="col">
                     <label for="keyword"><span style="color:red">* </span>Keyword</label>
-                    <input type='text' class="text-box primary w-100 h-80 form-control" id='keyword' placeholder="Enter your keyword to search"/>
+                    <input type='text' name="keyword" class="text-box primary w-100 h-80 form-control" id='keyword' placeholder="Enter your keyword to search"/>
                 </div>
             </div>
             <div class="row research-paper-area ml-2" hidden>
                 {%if "radio" in crawlOptions["RESEARCH_PAPER"]["fields"]%}
                     {%for radioButtons in crawlOptions["RESEARCH_PAPER"]["fields"]["radio"]%}
                         <div class='row-col-2 mr-4'>
-                                <span>
+                                <label for="{{crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons].name}}">
                                     {%if crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons].required %}
                                         <span style="color:red">* </span>
                                     {%endif%}
                                     {{crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons].label}}
-                                </span>
+                                </label>
                                 {%for radio in crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons]["value"]%}
                                     <div class="col">
-                                        <label for="{{radio.value}}">{{radio.label}}</label>    
-                                        <input type="radio" name="{{radioButtons.name}}" id="{{radio.value}}"/>
+                                        <label for="{{radio.label}}">{{radio.label}}</label>    
+                                        <input type="radio" value="{{radio.value}}" name="{{crawlOptions["RESEARCH_PAPER"]["fields"]["radio"][radioButtons].name}}" id="{{radio.label}}"/>
                                     </div>
                                 {%endfor%}
                         </div>
@@ -59,7 +59,10 @@
                                     {%endif%}
                                     {{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["label"]}}
                                 </label>
-                                <input class="col form-control" type={{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["name"]}}"/>
+                                <input name="{{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["name"]}}" class="col form-control" 
+                                    type="{{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["type"]}}" 
+                                    placeholder="{{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["placeholder"]}}}" 
+                                    id="{{crawlOptions["RESEARCH_PAPER"]["fields"]["input"][input]["name"]}}"/>
                         {%endfor%}
                     {%endif%}
                 </div>
@@ -74,7 +77,10 @@
                                     {%endif%}
                                     {{crawlOptions["FACEBOOK"]["fields"]["input"][input]["label"]}}
                                 </label>
-                                <input class="col form-control" type={{crawlOptions["FACEBOOK"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["FACEBOOK"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["FACEBOOK"]["fields"]["input"][input]["name"]}}"/>
+                                <input name="{{crawlOptions["FACEBOOK"]["fields"]["input"][input]["name"]}}" class="col form-control" 
+                                    type="{{crawlOptions["FACEBOOK"]["fields"]["input"][input]["type"]}}" 
+                                    placeholder="{{crawlOptions["FACEBOOK"]["fields"]["input"][input]["placeholder"]}}}" 
+                                    id="{{crawlOptions["FACEBOOK"]["fields"]["input"][input]["name"]}}"/>
                         {%endfor%}
                     {%endif%}
                 </div>
@@ -89,7 +95,10 @@
                                     {%endif%}
                                     {{crawlOptions["NEWS"]["fields"]["input"][input]["label"]}}
                                 </label>
-                                <input class="col form-control" type={{crawlOptions["NEWS"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["NEWS"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["NEWS"]["fields"]["input"][input]["name"]}}"/>
+                                <input name="{{crawlOptions["NEWS"]["fields"]["input"][input]["name"]}}" class="col form-control" 
+                                    type="{{crawlOptions["NEWS"]["fields"]["input"][input]["type"]}}" 
+                                    placeholder="{{crawlOptions["NEWS"]["fields"]["input"][input]["placeholder"]}}}" 
+                                    id="{{crawlOptions["NEWS"]["fields"]["input"][input]["name"]}}"/>
                         {%endfor%}
                     {%endif%}
                 </div>
@@ -104,7 +113,10 @@
                                     {%endif%}
                                     {{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["label"]}}
                                 </label>
-                                <input class="col form-control" type={{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["type"]}} placeholder={{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["placeholder"]}}} id="{{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["name"]}}"/>
+                                <input name="{{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["name"]}}" class="col form-control" 
+                                    type="{{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["type"]}}" 
+                                    placeholder="{{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["placeholder"]}}" 
+                                    id="{{crawlOptions["GOOGLE_IMAGE"]["fields"]["input"][input]["name"]}}"/>
                         {%endfor%}
                     {%endif%}
                 </div>
