@@ -69,8 +69,16 @@ def getArticle(link):
                 content_.append(tag_article_p.get_text())
     
     # get comment
+    option = Options()
+    #option.add_argument("--proxy-server=%s" % proxy)
+    option.add_argument("--disable-infobars")
+    option.add_argument('headless') # Add to unsee the browser
+    option.add_argument('--disable-gpu')
+    option.add_argument("--disable-extensions")
+    option.add_argument("--disable-web-security")
+    
     driver_path = "./crawler/driver/chromedriver"
-    driver = webdriver.Chrome(executable_path=driver_path)
+    driver = webdriver.Chrome(executable_path=driver_path, options=option)
     driver.get(link)
     comment = {}
     #driver.maximize_window()
@@ -81,13 +89,19 @@ def getArticle(link):
         html = driver.page_source
         soup = BeautifulSoup(html, 'html.parser')
         div = soup.find_all('div', class_="content-comment")
-        for div_p in div:
-            tag_p = div_p.find('p', class_="full_content")
-            tag_span = tag_p.find('span')
-            user_name = tag_span.find('a', class_="nickname").b.get_text()
-            #comment.append(user_name)
-            cnt = tag_p.contents[1].strip()
-            comment[user_name] = str(cnt)
+        for div_p in div: 
+            if div_p.find('p', class_="full_content"): 
+                tag_p = div_p.find('p', class_="full_content")
+                tag_span = tag_p.find('span')
+                user_name = tag_span.find('a', class_="nickname").b.get_text()
+                cnt = tag_p.contents[1].strip()
+                comment[user_name] = str(cnt)
+            else: 
+                tag_p = div_p.find('p', class_="content_less")
+                tag_span = tag_p.find('span')
+                user_name = tag_span.find('a', class_="nickname").b.get_text()
+                cnt = tag_p.contents[1].strip()
+                comment[user_name] = str(cnt)
     except NoSuchElementException:
         comment = 'There is no comment on this post'
 
@@ -97,12 +111,10 @@ def getArticle(link):
         "comment" : comment
     }
 
-
-def crawl(keyword, quantity):
+def crawler(keyword, quantity):
     full = []
-    getLink(keyword_, quantity)
+    getLink(keyword, quantity)
     for crawl_ in link_list:
         full.append(getArticle(crawl_))
     return full
-
 

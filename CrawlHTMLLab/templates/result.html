@@ -88,9 +88,18 @@
             {%endif%}
 
             {%if result.crawlOption.value == crawlOptions['NEWS'].value%}
-                <div class="result-keyword">Keyword: {{result.keyword}}</div>
-                <div class="result-crawlOptions">Type choose: {{result.crawlOption.label}}</div>
-                <div id="result">Result: {{result.result}}</div>
+                <div id="quantity-news">Number of posts: {{result.quantity}}</div>
+                <div id="result-research-paper" class="mt-5 mb-5">Result: 
+                    {%for i in result.result%}
+                        <div class="card">
+                            <h3 class="card-header">{{i.title}}</h3>
+                            <div class="card-body">
+                                <p class="card-text"> {{i.content}} </p>
+                                <p class="card-text"> {{i.comment}} </p>
+                            </div>
+                        </div>
+                    {%endfor%}
+                </div>
             {%endif%}
         </div>
     </div>
