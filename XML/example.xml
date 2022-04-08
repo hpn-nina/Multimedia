@@ -1,0 +1,2777 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<dblpperson name="Kristin E. Lauter" pid="08/1510" n="147">
+<person key="homepages/08/1510" mdate="2020-07-14">
+<author pid="08/1510">Kristin E. Lauter</author>
+<url>http://research.microsoft.com/en-us/um/people/klauter/</url>
+<url>https://scholar.google.com/citations?user=TmuUs30AAAAJ</url>
+<url>https://zbmath.org/authors/?q=ai:lauter.kristin-e</url>
+<url>https://mathgenealogy.org/id.php?id=77976</url>
+<url>https://en.wikipedia.org/wiki/Kristin_Lauter</url>
+<url>https://twitter.com/kristinlauter</url>
+<url>https://www.wikidata.org/entity/Q6438154</url>
+<url>http://isni.org/isni/0000000109659555</url>
+<url>https://id.loc.gov/authorities/names/n2008017385</url>
+<url>https://d-nb.info/gnd/137142757</url>
+<note type="affiliation">Microsoft Research, Redmond</note>
+</person>
+<r>
+<article key="journals/csur/AloufiHSL22" mdate="2022-03-16">
+<author pid="202/9037">Asma Aloufi</author>
+<author pid="14/4214">Peizhao Hu</author>
+<author pid="145/5981">Yongsoo Song</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing Blindfolded on Data Homomorphically Encrypted under Multiple Keys: A Survey.</title>
+<pages>195:1-195:37</pages>
+<year>2022</year>
+<volume>54</volume>
+<journal>ACM Comput. Surv.</journal>
+<number>9</number>
+<ee>https://doi.org/10.1145/3477139</ee>
+<ee>https://www.wikidata.org/entity/Q108863814</ee>
+<url>db/journals/csur/csur54.html#AloufiHSL22</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2201-11079" mdate="2022-02-02">
+<author pid="251/1546">Sarah Arpin</author>
+<author pid="87/7674">Mingjie Chen</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="s/RenateScheidler">Renate Scheidler</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<author pid="312/6659">Ha T. N. Tran</author>
+<title>Orienteering with one endomorphism.</title>
+<year>2022</year>
+<volume>abs/2201.11079</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2201.11079</ee>
+<url>db/journals/corr/corr2201.html#abs-2201-11079</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ArpinCLSST22" mdate="2022-02-18">
+<author pid="251/1546">Sarah Arpin</author>
+<author pid="87/7674">Mingjie Chen</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="s/RenateScheidler">Renate Scheidler</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<author pid="312/6659">Ha T. N. Tran</author>
+<title>Orienteering with one endomorphism.</title>
+<pages>98</pages>
+<year>2022</year>
+<volume>2022</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2022/098</ee>
+<url>db/journals/iacr/iacr2022.html#ArpinCLSST22</url>
+</article>
+</r>
+<r>
+<article key="journals/jmc/CheonLS20" mdate="2021-08-24">
+<author pid="64/5207">Jung Hee Cheon</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="145/5981">Yongsoo Song</author>
+<title>Editor's Preface for the Second Annual MathCrypt Proceedings Volume.</title>
+<pages>1-3</pages>
+<year>2021</year>
+<volume>15</volume>
+<journal>J. Math. Cryptol.</journal>
+<number>1</number>
+<ee type="oa">https://doi.org/10.1515/jmc-2020-0170</ee>
+<url>db/journals/jmc/jmc15.html#CheonLS20</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2104-09164" mdate="2021-04-26">
+<author pid="135/6577">Miran Kim</author>
+<author pid="43/3924">Xiaoqian Jiang</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="290/8027">Elkhan Ismayilzada</author>
+<author pid="183/8389">Shayan Shams</author>
+<title>HEAR: Human Action Recognition via Neural Networks on Homomorphically Encrypted Data.</title>
+<year>2021</year>
+<volume>abs/2104.09164</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2104.09164</ee>
+<url>db/journals/corr/corr2104.html#abs-2104-09164</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2107-10906" mdate="2021-07-29">
+<author pid="298/0588">Elena Fuchs</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="298/1227">Matthew Litman</author>
+<author pid="298/1282">Austin Tran</author>
+<title>A Cryptographic Hash Function from Markoff Triples.</title>
+<year>2021</year>
+<volume>abs/2107.10906</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2107.10906</ee>
+<url>db/journals/corr/corr2107.html#abs-2107-10906</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/Lauter21" mdate="2021-04-07">
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Private AI: Machine Learning on Encrypted Data.</title>
+<pages>324</pages>
+<year>2021</year>
+<volume>2021</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2021/324</ee>
+<url>db/journals/iacr/iacr2021.html#Lauter21</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/AmorosILMS21" mdate="2021-04-07">
+<author pid="259/9958">Laia Amorós</author>
+<author pid="222/2001">Annamaria Iezzi</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="194/2820">Chloe Martindale</author>
+<author pid="251/1549">Jana Sotáková</author>
+<title>Explicit connections between supersingular isogeny graphs and Bruhat - Tits trees.</title>
+<pages>372</pages>
+<year>2021</year>
+<volume>2021</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2021/372</ee>
+<url>db/journals/iacr/iacr2021.html#AmorosILMS21</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/FuchsLLT21" mdate="2021-08-09">
+<author pid="298/0588">Elena Fuchs</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="298/1227">Matthew Litman</author>
+<author pid="298/1282">Austin Tran</author>
+<title>A Cryptographic Hash Function from Markoff Triples.</title>
+<pages>983</pages>
+<year>2021</year>
+<volume>2021</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2021/983</ee>
+<url>db/journals/iacr/iacr2021.html#FuchsLLT21</url>
+</article>
+</r>
+<r>
+<article key="journals/jmc/CheonLY20" mdate="2021-02-17">
+<author pid="64/5207">Jung Hee Cheon</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="233/0498">Donggeon Yhee</author>
+<title>Preface to the First Annual MathCrypt Proceedings Volume.</title>
+<pages>1-4</pages>
+<year>2020</year>
+<volume>14</volume>
+<journal>J. Math. Cryptol.</journal>
+<number>1</number>
+<ee type="oa">https://doi.org/10.1515/jmc-2020-0060</ee>
+<url>db/journals/jmc/jmc14.html#CheonLY20</url>
+</article>
+</r>
+<r>
+<article key="journals/jmc/BonehGKLSSTZ20" mdate="2021-10-14">
+<author pid="b/DanBoneh">Dan Boneh</author>
+<author pid="140/4504">Darren B. Glass</author>
+<author orcid="0000-0001-6826-9901" pid="223/4791">Daniel Krashen</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="223/4562">Shahed Sharif</author>
+<author pid="02/965">Alice Silverberg</author>
+<author pid="65/7423">Mehdi Tibouchi</author>
+<author pid="39/10308">Mark Zhandry</author>
+<title>Multiparty Non-Interactive Key Exchange and More From Isogenies on Elliptic Curves.</title>
+<pages>5-14</pages>
+<year>2020</year>
+<volume>14</volume>
+<journal>J. Math. Cryptol.</journal>
+<number>1</number>
+<ee type="oa">https://doi.org/10.1515/jmc-2015-0047</ee>
+<url>db/journals/jmc/jmc14.html#BonehGKLSSTZ20</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2007-04484" mdate="2020-09-22">
+<author pid="122/9619">Mingliang Chen</author>
+<author pid="145/1656">Aria Shahverdi</author>
+<author pid="187/8065">Sarah Anderson</author>
+<author pid="85/7998">Se Yong Park</author>
+<author pid="270/0536">Justin Zhang 0004</author>
+<author pid="38/6981">Dana Dachman-Soled</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="16/0-1">Min Wu 0001</author>
+<title>Transparency Tools for Fairness in AI (Luskin).</title>
+<year>2020</year>
+<volume>abs/2007.04484</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2007.04484</ee>
+<url>db/journals/corr/corr2007.html#abs-2007-04484</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2007-09270" mdate="2020-07-28">
+<author pid="202/9037">Asma Aloufi</author>
+<author pid="14/4214">Peizhao Hu</author>
+<author pid="145/5981">Yongsoo Song</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing Blindfolded on Data Homomorphically Encrypted under Multiple Keys: An Extended Survey.</title>
+<year>2020</year>
+<volume>abs/2007.09270</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2007.09270</ee>
+<url>db/journals/corr/corr2007.html#abs-2007-09270</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/AloufiHSL20" mdate="2020-05-11">
+<author pid="202/9037">Asma Aloufi</author>
+<author pid="14/4214">Peizhao Hu</author>
+<author pid="145/5981">Yongsoo Song</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing Blindfolded on Data Homomorphically Encrypted under Multiple Keys: An Extended Survey.</title>
+<pages>447</pages>
+<year>2020</year>
+<volume>2020</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2020/447</ee>
+<url>db/journals/iacr/iacr2020.html#AloufiHSL20</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ChenCLS20" mdate="2020-05-27">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="143/4392">Lynn Chua</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="145/5981">Yongsoo Song</author>
+<title>On the Concrete Security of LWE with Small Secret.</title>
+<pages>539</pages>
+<year>2020</year>
+<volume>2020</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2020/539</ee>
+<url>db/journals/iacr/iacr2020.html#ChenCLS20</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/bcc/LauterP19" mdate="2022-01-10">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="52/2168">Christophe Petit</author>
+<title>Supersingular isogeny graphs in cryptography.</title>
+<pages>143-166</pages>
+<year>2019</year>
+<booktitle>BCC</booktitle>
+<ee>https://doi.org/10.1017/9781108649094.006</ee>
+<crossref>conf/bcc/2019</crossref>
+<url>db/conf/bcc/bcc2019.html#LauterP19</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/ccs/Gilad-BachrachL19" mdate="2019-11-10">
+<author pid="g/RGiladBachrach">Ran Gilad-Bachrach</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="183/5983">Peter Rindal</author>
+<author pid="r/MikeRosulek">Mike Rosulek</author>
+<title>Secure Data Exchange: A Marketplace in the Cloud.</title>
+<pages>117-128</pages>
+<year>2019</year>
+<booktitle>CCSW@CCS</booktitle>
+<ee>https://doi.org/10.1145/3338466.3358924</ee>
+<crossref>conf/ccs/2019ccsw</crossref>
+<url>db/conf/ccs/ccsw2019.html#Gilad-BachrachL19</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/pldi/DathathriS0LLMM19" mdate="2019-06-09">
+<author pid="135/5410">Roshan Dathathri</author>
+<author pid="117/9611">Olli Saarikivi</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="76/10701">Saeed Maleki</author>
+<author pid="95/6578">Madanlal Musuvathi</author>
+<author pid="09/1276">Todd Mytkowicz</author>
+<title>CHET: an optimizing compiler for fully-homomorphic neural-network inferencing.</title>
+<pages>142-156</pages>
+<year>2019</year>
+<booktitle>PLDI</booktitle>
+<ee>https://doi.org/10.1145/3314221.3314628</ee>
+<crossref>conf/pldi/2019</crossref>
+<url>db/conf/pldi/pldi2019.html#DathathriS0LLMM19</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/uss/RiaziS0LLK19" mdate="2021-06-04">
+<author pid="181/9181">M. Sadegh Riazi</author>
+<author pid="199/8745">Mohammad Samragh</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0003-0798-3794" pid="k/FarinazKoushanfar">Farinaz Koushanfar</author>
+<title>XONN: XNOR-based Oblivious Deep Neural Network Inference.</title>
+<pages>1501-1518</pages>
+<year>2019</year>
+<booktitle>USENIX Security Symposium</booktitle>
+<ee type="oa">https://www.usenix.org/conference/usenixsecurity19/presentation/riazi</ee>
+<crossref>conf/uss/2019</crossref>
+<url>db/conf/uss/uss2019.html#RiaziS0LLK19</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-1902-07342" mdate="2019-05-21">
+<author pid="181/9181">M. Sadegh Riazi</author>
+<author pid="199/8745">Mohammad Samragh</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="k/FarinazKoushanfar">Farinaz Koushanfar</author>
+<title>XONN: XNOR-based Oblivious Deep Neural Network Inference.</title>
+<year>2019</year>
+<volume>abs/1902.07342</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1902.07342</ee>
+<url>db/journals/corr/corr1902.html#abs-1902-07342</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-1905-07766" mdate="2020-08-20">
+<author pid="57/9813-1">Wenhao Wang 0001</author>
+<author pid="118/7206">Yichen Jiang</author>
+<author pid="232/3373">Qintao Shen</author>
+<author pid="213/2191">Weihao Huang</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="86/220-2">Shuang Wang 0002</author>
+<author pid="06/6268">Xiaofeng Wang 0006</author>
+<author pid="90/3951">Haixu Tang</author>
+<author pid="c/KaiChen12">Kai Chen 0012</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="44/6488">Dongdai Lin</author>
+<title>Toward Scalable Fully Homomorphic Encryption Through Light Trusted Computing Assistance.</title>
+<year>2019</year>
+<volume>abs/1905.07766</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1905.07766</ee>
+<url>db/journals/corr/corr1905.html#abs-1905-07766</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/RiaziSCLLK19" mdate="2021-06-04">
+<author pid="181/9181">M. Sadegh Riazi</author>
+<author pid="199/8745">Mohammad Samragh</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0003-0798-3794" pid="k/FarinazKoushanfar">Farinaz Koushanfar</author>
+<title>XONN: XNOR-based Oblivious Deep Neural Network Inference.</title>
+<pages>171</pages>
+<year>2019</year>
+<volume>2019</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2019/171</ee>
+<url>db/journals/iacr/iacr2019.html#RiaziSCLLK19</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/AlbrechtCCDGGHH19" mdate="2020-05-11">
+<author pid="92/7397">Martin R. Albrecht</author>
+<author pid="06/1661">Melissa Chase</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="42/393">Jintai Ding</author>
+<author pid="g/ShafiGoldwasser">Shafi Goldwasser</author>
+<author pid="117/3299-1">Sergey Gorbunov 0001</author>
+<author pid="65/4781">Shai Halevi</author>
+<author pid="61/6497">Jeffrey Hoffstein</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="249/0573">Satya Lokam</author>
+<author pid="03/3331">Daniele Micciancio</author>
+<author pid="82/7619">Dustin Moody</author>
+<author pid="216/6315">Travis Morrison</author>
+<author pid="s/AmitSahai">Amit Sahai</author>
+<author pid="v/VinodVaikuntanathan">Vinod Vaikuntanathan</author>
+<title>Homomorphic Encryption Standard.</title>
+<pages>939</pages>
+<year>2019</year>
+<volume>2019</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2019/939</ee>
+<url>db/journals/iacr/iacr2019.html#AlbrechtCCDGGHH19</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ArpinCLLNSS19" mdate="2020-05-11">
+<author pid="251/1546">Sarah Arpin</author>
+<author pid="251/1502">Catalina Camacho-Navarro</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="251/1435">Joelle Lim</author>
+<author pid="207/7969">Kristina Nelson</author>
+<author pid="200/2057">Travis Scholl</author>
+<author pid="251/1549">Jana Sotáková</author>
+<title>Adventures in Supersingularland.</title>
+<pages>1056</pages>
+<year>2019</year>
+<volume>2019</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2019/1056</ee>
+<url>db/journals/iacr/iacr2019.html#ArpinCLLNSS19</url>
+</article>
+</r>
+<r>
+<article key="journals/ieeesp/BuchmannLM18" mdate="2020-03-15">
+<author pid="b/JohannesBuchmann">Johannes Buchmann 0001</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="95/2541">Michele Mosca</author>
+<title>Postquantum Cryptography, Part 2.</title>
+<pages>12-13</pages>
+<year>2018</year>
+<volume>16</volume>
+<journal>IEEE Secur. Priv.</journal>
+<number>5</number>
+<ee>https://doi.org/10.1109/MSP.2018.3761714</ee>
+<ee>http://doi.ieeecomputersociety.org/10.1109/MSP.2018.3761714</ee>
+<url>db/journals/ieeesp/ieeesp16.html#BuchmannLM18</url>
+</article>
+</r>
+<r>
+<article key="journals/trets/RouhaniHLK18" mdate="2022-01-08">
+<author orcid="0000-0002-8412-4320" pid="157/9224">Bita Darvish Rouhani</author>
+<author pid="154/2953">Siam Umar Hussain</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0003-0798-3794" pid="k/FarinazKoushanfar">Farinaz Koushanfar</author>
+<title>ReDCrypt: Real-Time Privacy-Preserving Deep Learning Inference in Clouds Using FPGAs.</title>
+<pages>21:1-21:21</pages>
+<year>2018</year>
+<volume>11</volume>
+<journal>ACM Trans. Reconfigurable Technol. Syst.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1145/3242899</ee>
+<url>db/journals/trets/trets11.html#RouhaniHLK18</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ccs/JiangKLS18" mdate="2020-11-10">
+<author pid="43/3924">Xiaoqian Jiang</author>
+<author orcid="0000-0003-3564-6090" pid="135/6577">Miran Kim</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0002-0496-9789" pid="145/5981">Yongsoo Song</author>
+<title>Secure Outsourced Matrix Computation and Application to Neural Networks.</title>
+<pages>1209-1222</pages>
+<year>2018</year>
+<booktitle>CCS</booktitle>
+<ee>https://doi.org/10.1145/3243734.3243837</ee>
+<ee>https://www.wikidata.org/entity/Q92566503</ee>
+<crossref>conf/ccs/2018</crossref>
+<url>db/conf/ccs/ccs2018.html#JiangKLS18</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/eurocrypt/EisentragerHLMP18" mdate="2020-12-29">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="59/5133">Sean Hallgren</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="216/6315">Travis Morrison</author>
+<author orcid="0000-0003-3482-6743" pid="52/2168">Christophe Petit</author>
+<title>Supersingular Isogeny Graphs and Endomorphism Rings: Reductions and Solutions.</title>
+<pages>329-368</pages>
+<year>2018</year>
+<booktitle>EUROCRYPT (3)</booktitle>
+<ee>https://doi.org/10.1007/978-3-319-78372-7_11</ee>
+<crossref>conf/eurocrypt/2018-3</crossref>
+<url>db/conf/eurocrypt/eurocrypt2018-3.html#EisentragerHLMP18</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-1806-05709" mdate="2018-08-13">
+<author pid="168/7892">Anamaria Costache</author>
+<author pid="222/3179">Brooke Feigon</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="143/4484">Maike Massierer</author>
+<author pid="222/3159">Anna Puskás</author>
+<title>Ramanujan graphs in cryptography.</title>
+<year>2018</year>
+<volume>abs/1806.05709</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1806.05709</ee>
+<url>db/journals/corr/corr1806.html#abs-1806-05709</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-1807-03038" mdate="2019-12-10">
+<author pid="b/DanBoneh">Dan Boneh</author>
+<author pid="140/4504">Darren B. Glass</author>
+<author pid="223/4791">Daniel Krashen</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="223/4562">Shahed Sharif</author>
+<author pid="02/965">Alice Silverberg</author>
+<author pid="65/7423">Mehdi Tibouchi</author>
+<author pid="39/10308">Mark Zhandry</author>
+<title>Multiparty Non-Interactive Key Exchange and More From Isogenies on Elliptic Curves.</title>
+<year>2018</year>
+<volume>abs/1807.03038</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1807.03038</ee>
+<url>db/journals/corr/corr1807.html#abs-1807-03038</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-1810-00845" mdate="2019-03-28">
+<author pid="135/5410">Roshan Dathathri</author>
+<author pid="117/9611">Olli Saarikivi</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="76/10701">Saeed Maleki</author>
+<author pid="95/6578">Madanlal Musuvathi</author>
+<author pid="09/1276">Todd Mytkowicz</author>
+<title>CHET: Compiler and Runtime for Homomorphic Evaluation of Tensor Programs.</title>
+<year>2018</year>
+<volume>abs/1810.00845</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1810.00845</ee>
+<url>db/journals/corr/corr1810.html#abs-1810-00845</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/EisentragerHLMP18" mdate="2020-05-11">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="59/5133">Sean Hallgren</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="216/6315">Travis Morrison</author>
+<author pid="52/2168">Christophe Petit</author>
+<title>Supersingular isogeny graphs and endomorphism rings: reductions and solutions.</title>
+<pages>371</pages>
+<year>2018</year>
+<volume>2018</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2018/371</ee>
+<url>db/journals/iacr/iacr2018.html#EisentragerHLMP18</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ChenGHHJLL18" mdate="2020-05-11">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="g/RGiladBachrach">Ran Gilad-Bachrach</author>
+<author pid="153/9854">Kyoohyung Han</author>
+<author pid="128/9270">Zhicong Huang</author>
+<author pid="183/5675">Amir Jalali</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Logistic regression over encrypted data from fully homomorphic encryption.</title>
+<pages>462</pages>
+<year>2018</year>
+<volume>2018</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2018/462</ee>
+<url>db/journals/iacr/iacr2018.html#ChenGHHJLL18</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CostacheFLMP18" mdate="2020-05-11">
+<author pid="168/7892">Anamaria Costache</author>
+<author pid="222/3179">Brooke Feigon</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="143/4484">Maike Massierer</author>
+<author pid="222/3159">Anna Puskás</author>
+<title>Ramanujan graphs in cryptography.</title>
+<pages>593</pages>
+<year>2018</year>
+<volume>2018</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2018/593</ee>
+<url>db/journals/iacr/iacr2018.html#CostacheFLMP18</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BonehGKLSSTZ18" mdate="2020-05-11">
+<author pid="b/DanBoneh">Dan Boneh</author>
+<author pid="140/4504">Darren B. Glass</author>
+<author pid="223/4791">Daniel Krashen</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="223/4562">Shahed Sharif</author>
+<author pid="02/965">Alice Silverberg</author>
+<author pid="65/7423">Mehdi Tibouchi</author>
+<author pid="39/10308">Mark Zhandry</author>
+<title>Multiparty Non-Interactive Key Exchange and More From Isogenies on Elliptic Curves.</title>
+<pages>665</pages>
+<year>2018</year>
+<volume>2018</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2018/665</ee>
+<url>db/journals/iacr/iacr2018.html#BonehGKLSSTZ18</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/JiangKLS18" mdate="2020-05-11">
+<author pid="43/3924">Xiaoqian Jiang</author>
+<author pid="135/6577">Miran Kim</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="145/5981">Yongsoo Song</author>
+<title>Secure Outsourced Matrix Computation and Application to Neural Networks.</title>
+<pages>1041</pages>
+<year>2018</year>
+<volume>2018</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">https://eprint.iacr.org/2018/1041</ee>
+<url>db/journals/iacr/iacr2018.html#JiangKLS18</url>
+</article>
+</r>
+<r>
+<article key="journals/bioinformatics/ChenWJDLKSSBWPH17" mdate="2020-10-26">
+<author pid="21/3047-16">Feng Chen 0016</author>
+<author pid="86/220-2">Shuang Wang 0002</author>
+<author pid="43/3924">Xiaoqian Jiang</author>
+<author pid="197/8124">Sijie Ding</author>
+<author pid="26/5662">Yao Lu</author>
+<author pid="51/4060">Jihoon Kim</author>
+<author pid="s/SCSahinalp">Süleyman Cenk Sahinalp</author>
+<author orcid="0000-0002-3149-2699" pid="197/8375">Chisato Shimizu</author>
+<author pid="197/8513">Jane C. Burns</author>
+<author orcid="0000-0001-7826-1516" pid="197/8389">Victoria J. Wright</author>
+<author pid="197/8360">Eileen Png</author>
+<author orcid="0000-0001-8587-1849" pid="197/8498">Martin L. Hibberd</author>
+<author pid="197/8357">David D. Lloyd</author>
+<author pid="65/2729">Hai Yang</author>
+<author pid="70/7069">Amalio Telenti</author>
+<author orcid="0000-0003-1315-8387" pid="174/5600">Cinnamon S. Bloss</author>
+<author pid="176/2625">Dov Fox</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="71/4212">Lucila Ohno-Machado</author>
+<title>PRINCESS: Privacy-protecting Rare disease International Network Collaboration via Encryption through Software guard extensionS.</title>
+<pages>871-878</pages>
+<year>2017</year>
+<volume>33</volume>
+<journal>Bioinform.</journal>
+<number>6</number>
+<ee>https://doi.org/10.1093/bioinformatics/btw758</ee>
+<ee>https://www.wikidata.org/entity/Q39033087</ee>
+<url>db/journals/bioinformatics/bioinformatics33.html#ChenWJDLKSSBWPH17</url>
+</article>
+</r>
+<r>
+<article key="journals/ieeesp/BuchmannLM17" mdate="2020-11-16">
+<author pid="b/JohannesBuchmann">Johannes Buchmann 0001</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="95/2541">Michele Mosca</author>
+<title>Postquantum Cryptography - State of the Art.</title>
+<pages>12-13</pages>
+<year>2017</year>
+<volume>15</volume>
+<journal>IEEE Secur. Priv.</journal>
+<number>4</number>
+<ee>https://doi.org/10.1109/MSP.2017.3151326</ee>
+<ee>http://doi.ieeecomputersociety.org/10.1109/MSP.2017.3151326</ee>
+<url>db/journals/ieeesp/ieeesp15.html#BuchmannLM17</url>
+</article>
+</r>
+<r>
+<article key="journals/ieeesp/Lauter17" mdate="2020-03-15">
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Postquantum Opportunities: Lattices, Homomorphic Encryption, and Supersingular Isogeny Graphs.</title>
+<pages>22-27</pages>
+<year>2017</year>
+<volume>15</volume>
+<journal>IEEE Secur. Priv.</journal>
+<number>4</number>
+<ee>https://doi.org/10.1109/MSP.2017.3151338</ee>
+<ee>http://doi.ieeecomputersociety.org/10.1109/MSP.2017.3151338</ee>
+<url>db/journals/ieeesp/ieeesp15.html#Lauter17</url>
+</article>
+</r>
+<r>
+<article key="journals/pieee/DowlinGLLNW17" mdate="2020-10-02">
+<author pid="182/8929">Nathan Dowlin</author>
+<author pid="g/RGiladBachrach">Ran Gilad-Bachrach</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="08/7942">John Wernsing</author>
+<title>Manual for Using Homomorphic Encryption for Bioinformatics.</title>
+<pages>552-567</pages>
+<year>2017</year>
+<volume>105</volume>
+<journal>Proc. IEEE</journal>
+<number>3</number>
+<ee>https://doi.org/10.1109/JPROC.2016.2622218</ee>
+<ee>https://www.wikidata.org/entity/Q56531116</ee>
+<url>db/journals/pieee/pieee105.html#DowlinGLLNW17</url>
+</article>
+</r>
+<r>
+<article key="journals/siaga/0030LS17" mdate="2020-10-26">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0003-2294-0397" pid="47/3884">Katherine E. Stange</author>
+<title>Attacks on the Search RLWE Problem with Small Errors.</title>
+<pages>665-682</pages>
+<year>2017</year>
+<volume>1</volume>
+<journal>SIAM J. Appl. Algebra Geom.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1137/16M1096566</ee>
+<url>db/journals/siaga/siaga1.html#0030LS17</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/asiacrypt/RoettelerNSL17" mdate="2018-11-02">
+<author orcid="0000-0003-0234-2496" pid="r/MartinRottler">Martin Roetteler</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="s/KMSvore">Krysta M. Svore</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Quantum Resource Estimates for Computing Elliptic Curve Discrete Logarithms.</title>
+<pages>241-270</pages>
+<year>2017</year>
+<booktitle>ASIACRYPT (2)</booktitle>
+<ee>https://doi.org/10.1007/978-3-319-70697-9_9</ee>
+<crossref>conf/asiacrypt/2017-2</crossref>
+<url>db/conf/asiacrypt/asiacrypt2017-2.html#RoettelerNSL17</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/RoettelerNSL17" mdate="2019-09-17">
+<author orcid="0000-0003-0234-2496" pid="r/MartinRottler">Martin Roetteler</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="s/KMSvore">Krysta M. Svore</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Quantum resource estimates for computing elliptic curve discrete logarithms.</title>
+<year>2017</year>
+<volume>abs/1706.06752</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1706.06752</ee>
+<url>db/journals/corr/corr1706.html#RoettelerNSL17</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-1710-03316" mdate="2019-03-28">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Security considerations for Galois non-dual RLWE families.</title>
+<year>2017</year>
+<volume>abs/1710.03316</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1710.03316</ee>
+<url>db/journals/corr/corr1710.html#abs-1710-03316</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-1710-03739" mdate="2019-03-28">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Attacks on the Search-RLWE problem with small errors.</title>
+<year>2017</year>
+<volume>abs/1710.03739</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1710.03739</ee>
+<url>db/journals/corr/corr1710.html#abs-1710-03739</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CetinCLLRX17" mdate="2020-05-11">
+<author pid="161/6295">Gizem S. Çetin</author>
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="183/5983">Peter Rindal</author>
+<author pid="197/1411">Yuhou Xia</author>
+<title>Private Queries on Encrypted Genomic Data.</title>
+<pages>207</pages>
+<year>2017</year>
+<volume>2017</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2017/207</ee>
+<url>db/journals/iacr/iacr2017.html#CetinCLLRX17</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/RoettelerNSL17" mdate="2020-05-11">
+<author pid="r/MartinRottler">Martin Roetteler</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="s/KMSvore">Krysta M. Svore</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Quantum Resource Estimates for Computing Elliptic Curve Discrete Logarithms.</title>
+<pages>598</pages>
+<year>2017</year>
+<volume>2017</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2017/598</ee>
+<url>db/journals/iacr/iacr2017.html#RoettelerNSL17</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ChaseGLLR17" mdate="2020-05-11">
+<author pid="06/1661">Melissa Chase</author>
+<author pid="g/RGiladBachrach">Ran Gilad-Bachrach</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="183/5983">Peter Rindal</author>
+<title>Private Collaborative Neural Network Learning.</title>
+<pages>762</pages>
+<year>2017</year>
+<volume>2017</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2017/762</ee>
+<url>db/journals/iacr/iacr2017.html#ChaseGLLR17</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/PetitL17" mdate="2020-05-11">
+<author pid="52/2168">Christophe Petit</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Hard and Easy Problems for Supersingular Isogeny Graphs.</title>
+<pages>962</pages>
+<year>2017</year>
+<volume>2017</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2017/962</ee>
+<url>db/journals/iacr/iacr2017.html#PetitL17</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterN17" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Cryptographic Pairings.</title>
+<pages>1108</pages>
+<year>2017</year>
+<volume>2017</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2017/1108</ee>
+<url>db/journals/iacr/iacr2017.html#LauterN17</url>
+</article>
+</r>
+<r>
+<article key="journals/bioinformatics/WangZDLKTXJ16" mdate="2021-08-19">
+<author pid="86/220-2">Shuang Wang 0002</author>
+<author pid="09/5661">Yuchen Zhang</author>
+<author pid="16/5135">Wenrui Dai</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0003-3564-6090" pid="135/6577">Miran Kim</author>
+<author pid="09/1770">Yuzhe Richard Tang</author>
+<author orcid="0000-0003-4552-0029" pid="21/3569">Hongkai Xiong</author>
+<author pid="43/3924">Xiaoqian Jiang</author>
+<title>HEALER: homomorphic computation of ExAct Logistic rEgRession for secure rare disease variants analysis in GWAS.</title>
+<pages>211-218</pages>
+<year>2016</year>
+<volume>32</volume>
+<journal>Bioinform.</journal>
+<number>2</number>
+<ee>https://doi.org/10.1093/bioinformatics/btv563</ee>
+<ee>https://www.wikidata.org/entity/Q36538189</ee>
+<url>db/journals/bioinformatics/bioinformatics32.html#WangZDLKTXJ16</url>
+</article>
+</r>
+<r>
+<article key="journals/joc/BosCHL16" mdate="2020-09-18">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="98/7227">Craig Costello</author>
+<author orcid="0000-0002-1019-2187" pid="44/5656">Hüseyin Hisil</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Fast Cryptography in Genus 2.</title>
+<pages>28-60</pages>
+<year>2016</year>
+<volume>29</volume>
+<journal>J. Cryptol.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1007/s00145-014-9188-7</ee>
+<url>db/journals/joc/joc29.html#BosCHL16</url>
+</article>
+</r>
+<r>
+<article key="journals/popets/WuFNL16" mdate="2020-09-01">
+<author pid="32/10400">David J. Wu</author>
+<author pid="150/2232">Tony Feng</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Privately Evaluating Decision Trees and Random Forests.</title>
+<pages>335-355</pages>
+<year>2016</year>
+<volume>2016</volume>
+<journal>Proc. Priv. Enhancing Technol.</journal>
+<number>4</number>
+<ee type="oa">https://doi.org/10.1515/popets-2016-0043</ee>
+<url>db/journals/popets/popets2016.html#WuFNL16</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/icml/Gilad-BachrachD16" mdate="2019-05-29">
+<author pid="g/RGiladBachrach">Ran Gilad-Bachrach</author>
+<author pid="182/8929">Nathan Dowlin</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="08/7942">John Wernsing</author>
+<title>CryptoNets: Applying Neural Networks to Encrypted Data with High Throughput and Accuracy.</title>
+<pages>201-210</pages>
+<year>2016</year>
+<booktitle>ICML</booktitle>
+<ee type="oa">http://proceedings.mlr.press/v48/gilad-bachrach16.html</ee>
+<crossref>conf/icml/2016</crossref>
+<url>db/conf/icml/icml2016.html#Gilad-BachrachD16</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/sacrypt/ChenLS16" mdate="2020-10-25">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0003-2294-0397" pid="47/3884">Katherine E. Stange</author>
+<title>Security Considerations for Galois Non-dual RLWE Families.</title>
+<pages>443-462</pages>
+<year>2016</year>
+<booktitle>SAC</booktitle>
+<ee>https://doi.org/10.1007/978-3-319-69453-5_24</ee>
+<crossref>conf/sacrypt/2016</crossref>
+<url>db/conf/sacrypt/sacrypt2016.html#ChenLS16</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/BolkemaGKLMR16" mdate="2018-08-13">
+<author pid="192/1906">Jessalyn Bolkema</author>
+<author pid="87/5564">Heide Gluesing-Luerssen</author>
+<author pid="16/5441">Christine A. Kelley</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="192/1578">Beth Malmskog</author>
+<author pid="44/4587">Joachim Rosenthal</author>
+<title>Variations of the McEliece Cryptosystem.</title>
+<year>2016</year>
+<volume>abs/1612.05085</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1612.05085</ee>
+<url>db/journals/corr/corr1612.html#BolkemaGKLMR16</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/dagstuhl-reports/LauterSS16" mdate="2017-06-07">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="s/RaduSion">Radu Sion</author>
+<author pid="s/NigelPSmart">Nigel P. Smart</author>
+<title>Modern Cryptography and Security: An Inter-Community Dialogue (Dagstuhl Seminar 16051).</title>
+<pages>207-223</pages>
+<year>2016</year>
+<volume>6</volume>
+<journal>Dagstuhl Reports</journal>
+<number>1</number>
+<ee type="oa">https://doi.org/10.4230/DagRep.6.1.207</ee>
+<url>db/journals/dagstuhl-reports/dagstuhl-reports6.html#LauterSS16</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ChenLS16" mdate="2020-05-11">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Vulnerable Galois RLWE Families and Improved Attacks.</title>
+<pages>193</pages>
+<year>2016</year>
+<volume>2016</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2016/193</ee>
+<url>db/journals/iacr/iacr2016.html#ChenLS16</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BalakrishnanILV16" mdate="2020-09-14">
+<author pid="99/8295">Jennifer S. Balakrishnan</author>
+<author pid="17/6416">Sorina Ionica</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="178/5254">Christelle Vincent</author>
+<title>Constructing genus 3 hyperelliptic Jacobians with CM.</title>
+<pages>328</pages>
+<year>2016</year>
+<volume>2016</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2016/328</ee>
+<url>db/journals/iacr/iacr2016.html#BalakrishnanILV16</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/Gilad-BachrachL16" mdate="2020-05-11">
+<author pid="g/RGiladBachrach">Ran Gilad-Bachrach</author>
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="183/5983">Peter Rindal</author>
+<author pid="r/MikeRosulek">Mike Rosulek</author>
+<title>Secure Data Exchange: A Marketplace in the Cloud.</title>
+<pages>620</pages>
+<year>2016</year>
+<volume>2016</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2016/620</ee>
+<url>db/journals/iacr/iacr2016.html#Gilad-BachrachL16</url>
+</article>
+</r>
+<r>
+<article key="journals/jmc/LaineL15" mdate="2021-02-17">
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Time-memory trade-offs for index calculus in genus 3.</title>
+<pages>95-114</pages>
+<year>2015</year>
+<volume>9</volume>
+<journal>J. Math. Cryptol.</journal>
+<number>2</number>
+<ee type="oa">https://doi.org/10.1515/jmc-2014-0033</ee>
+<url>db/journals/jmc/jmc9.html#LaineL15</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/crypto/EliasLOS15" mdate="2021-10-14">
+<author pid="159/1717">Yara Elias</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author orcid="0000-0002-0178-8245" pid="159/1673">Ekin Ozman</author>
+<author orcid="0000-0003-2294-0397" pid="47/3884">Katherine E. Stange</author>
+<title>Provably Weak Instances of Ring-LWE.</title>
+<pages>63-92</pages>
+<year>2015</year>
+<booktitle>CRYPTO (1)</booktitle>
+<ee type="oa">https://doi.org/10.1007/978-3-662-47989-6_4</ee>
+<crossref>conf/crypto/2015-1</crossref>
+<url>db/conf/crypto/crypto2015-1.html#EliasLOS15</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/fc/CheonKL15" mdate="2018-11-02">
+<author pid="64/5207">Jung Hee Cheon</author>
+<author orcid="0000-0003-3564-6090" pid="135/6577">Miran Kim</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Homomorphic Computation of Edit Distance.</title>
+<pages>194-212</pages>
+<year>2015</year>
+<booktitle>Financial Cryptography Workshops</booktitle>
+<ee>https://doi.org/10.1007/978-3-662-48051-9_15</ee>
+<crossref>conf/fc/2015w</crossref>
+<url>db/conf/fc/fc2015w.html#CheonKL15</url>
+</inproceedings>
+</r>
+<r>
+<proceedings key="conf/latincrypt/2015" mdate="2019-05-14">
+<editor pid="08/1510">Kristin E. Lauter</editor>
+<editor pid="64/3154">Francisco Rodríguez-Henríquez</editor>
+<title>Progress in Cryptology - LATINCRYPT 2015 - 4th International Conference on Cryptology and Information Security in Latin America, Guadalajara, Mexico, August 23-26, 2015, Proceedings</title>
+<booktitle>LATINCRYPT</booktitle>
+<publisher>Springer</publisher>
+<year>2015</year>
+<series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
+<volume>9230</volume>
+<isbn>978-3-319-22173-1</isbn>
+<ee>https://doi.org/10.1007/978-3-319-22174-8</ee>
+<ee>https://www.wikidata.org/entity/Q29040558</ee>
+<url>db/conf/latincrypt/latincrypt2015.html</url>
+</proceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/EliasLOS15" mdate="2018-08-13">
+<author pid="159/1717">Yara Elias</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="159/1673">Ekin Ozman</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Provably weak instances of Ring-LWE.</title>
+<year>2015</year>
+<volume>abs/1502.03708</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1502.03708</ee>
+<url>db/journals/corr/corr1502.html#EliasLOS15</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/EliasLOS15a" mdate="2018-08-13">
+<author pid="159/1717">Yara Elias</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="159/1673">Ekin Ozman</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Ring-LWE Cryptography for the Number Theorist.</title>
+<year>2015</year>
+<volume>abs/1508.01375</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1508.01375</ee>
+<url>db/journals/corr/corr1508.html#EliasLOS15a</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/EliasLOS15" mdate="2020-05-11">
+<author pid="159/1717">Yara Elias</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="159/1673">Ekin Ozman</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Provably weak instances of Ring-LWE.</title>
+<pages>106</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/106</ee>
+<url>db/journals/iacr/iacr2015.html#EliasLOS15</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CheonKL15" mdate="2020-05-11">
+<author pid="64/5207">Jung Hee Cheon</author>
+<author pid="135/6577">Miran Kim</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Homomorphic Computation of Edit Distance.</title>
+<pages>132</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/132</ee>
+<url>db/journals/iacr/iacr2015.html#CheonKL15</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterLN15" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="11/8815">Adriana López-Alt</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Private Computation on Encrypted Genomic Data.</title>
+<pages>133</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/133</ee>
+<url>db/journals/iacr/iacr2015.html#LauterLN15</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LaineL15" mdate="2020-05-11">
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Key Recovery for LWE in Polynomial Time.</title>
+<pages>176</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/176</ee>
+<url>db/journals/iacr/iacr2015.html#LaineL15</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/WuFNL15" mdate="2020-05-11">
+<author pid="32/10400">David J. Wu</author>
+<author pid="150/2232">Tony Feng</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Privately Evaluating Decision Trees and Random Forests.</title>
+<pages>386</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/386</ee>
+<url>db/journals/iacr/iacr2015.html#WuFNL15</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/EliasLOS15a" mdate="2020-05-11">
+<author pid="159/1717">Yara Elias</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="159/1673">Ekin Ozman</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Ring-LWE Cryptography for the Number Theorist.</title>
+<pages>758</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/758</ee>
+<url>db/journals/iacr/iacr2015.html#EliasLOS15a</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/KimL15" mdate="2020-05-11">
+<author pid="135/6577">Miran Kim</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Private Genome Analysis through Homomorphic Encryption.</title>
+<pages>965</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/965</ee>
+<url>db/journals/iacr/iacr2015.html#KimL15</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ChenLS15" mdate="2020-05-11">
+<author pid="175/3324-30">Hao Chen 0030</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>Attacks on Search RLWE.</title>
+<pages>971</pages>
+<year>2015</year>
+<volume>2015</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2015/971</ee>
+<url>db/journals/iacr/iacr2015.html#ChenLS15</url>
+</article>
+</r>
+<r>
+<article key="journals/jbi/BosLN14" mdate="2021-02-16">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Private predictive analysis on encrypted medical data.</title>
+<pages>234-243</pages>
+<year>2014</year>
+<volume>50</volume>
+<journal>J. Biomed. Informatics</journal>
+<ee type="oa">https://doi.org/10.1016/j.jbi.2014.04.003</ee>
+<ee>https://www.wikidata.org/entity/Q30822685</ee>
+<url>db/journals/jbi/jbi50.html#BosLN14</url>
+</article>
+</r>
+<r>
+<article key="journals/moc/BrokerL14" mdate="2021-02-17">
+<author pid="10/3914">Reinier Bröker</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Evaluating Igusa functions.</title>
+<year>2014</year>
+<volume>83</volume>
+<journal>Math. Comput.</journal>
+<number>290</number>
+<ee type="oa">https://doi.org/10.1090/S0025-5718-2014-02816-0</ee>
+<url>db/journals/moc/moc83.html#BrokerL14</url>
+<pages>2977-2999</pages>
+</article>
+</r>
+<r>
+<inproceedings key="conf/latincrypt/LauterLN14" mdate="2017-05-24">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="11/8815">Adriana López-Alt</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Private Computation on Encrypted Genomic Data.</title>
+<pages>3-27</pages>
+<year>2014</year>
+<booktitle>LATINCRYPT</booktitle>
+<ee>https://doi.org/10.1007/978-3-319-16295-9_1</ee>
+<crossref>conf/latincrypt/2014</crossref>
+<url>db/conf/latincrypt/latincrypt2014.html#LauterLN14</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/sacrypt/EisentragerHL14" mdate="2018-10-03">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="59/5133">Sean Hallgren</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Weak Instances of PLWE.</title>
+<pages>183-194</pages>
+<year>2014</year>
+<booktitle>Selected Areas in Cryptography</booktitle>
+<ee type="oa">https://doi.org/10.1007/978-3-319-13051-4_11</ee>
+<crossref>conf/sacrypt/2014</crossref>
+<url>db/conf/sacrypt/sacrypt2014.html#EisentragerHL14</url>
+</inproceedings>
+</r>
+<r>
+<proceedings key="conf/sacrypt/2013" mdate="2019-05-14">
+<editor pid="56/2224">Tanja Lange 0001</editor>
+<editor pid="08/1510">Kristin E. Lauter</editor>
+<editor pid="l/PetrLisonek">Petr Lisonek</editor>
+<title>Selected Areas in Cryptography - SAC 2013 - 20th International Conference, Burnaby, BC, Canada, August 14-16, 2013, Revised Selected Papers</title>
+<year>2014</year>
+<publisher>Springer</publisher>
+<series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
+<volume>8282</volume>
+<ee>https://doi.org/10.1007/978-3-662-43414-7</ee>
+<isbn>978-3-662-43413-0</isbn>
+<booktitle>Selected Areas in Cryptography</booktitle>
+<url>db/conf/sacrypt/sacrypt2013.html</url>
+</proceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/XieBFGLN14" mdate="2018-08-13">
+<author pid="133/1998">Pengtao Xie</author>
+<author pid="13/1269">Misha Bilenko</author>
+<author pid="156/0184">Tom Finley</author>
+<author pid="g/RGiladBachrach">Ran Gilad-Bachrach</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Crypto-Nets: Neural Networks over Encrypted Data.</title>
+<year>2014</year>
+<volume>abs/1412.6181</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1412.6181</ee>
+<url>db/journals/corr/corr1412.html#XieBFGLN14</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BosLN14" mdate="2020-05-11">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Private Predictive Analysis on Encrypted Medical Data.</title>
+<pages>336</pages>
+<year>2014</year>
+<volume>2014</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2014/336</ee>
+<url>db/journals/iacr/iacr2014.html#BosLN14</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LaineL14" mdate="2020-05-11">
+<author pid="146/7941">Kim Laine</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Time-Memory Trade-offs for Index Calculus in Genus 3.</title>
+<pages>346</pages>
+<year>2014</year>
+<volume>2014</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2014/346</ee>
+<url>db/journals/iacr/iacr2014.html#LaineL14</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CostelloDLY14" mdate="2020-05-11">
+<author pid="98/7227">Craig Costello</author>
+<author pid="146/7921">Alyson Deines-Schartz</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="26/10308">Tonghai Yang</author>
+<title>Constructing Abelian Surfaces for Cryptography via Rosenhain Invariants.</title>
+<pages>424</pages>
+<year>2014</year>
+<volume>2014</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2014/424</ee>
+<url>db/journals/iacr/iacr2014.html#CostelloDLY14</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/KohelLPT14" mdate="2020-05-11">
+<author pid="35/9726">David Kohel</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="52/2168">Christophe Petit</author>
+<author pid="148/1605">Jean-Pierre Tignol</author>
+<title>On the quaternion ℓ-isogeny path problem.</title>
+<pages>505</pages>
+<year>2014</year>
+<volume>2014</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2014/505</ee>
+<url>db/journals/iacr/iacr2014.html#KohelLPT14</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/EisentragerHL14" mdate="2020-05-11">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="59/5133">Sean Hallgren</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Weak Instances of PLWE.</title>
+<pages>784</pages>
+<year>2014</year>
+<volume>2014</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2014/784</ee>
+<url>db/journals/iacr/iacr2014.html#EisentragerHL14</url>
+</article>
+</r>
+<r>
+<article key="journals/dcc/LauterS13" mdate="2019-06-17">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="93/2290">Ning Shang</author>
+<title>Generating pairing-friendly parameters for the CM construction of genus 2 curves over prime fields.</title>
+<pages>341-355</pages>
+<year>2013</year>
+<volume>67</volume>
+<journal>Des. Codes Cryptogr.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1007/s10623-012-9611-8</ee>
+<url>db/journals/dcc/dcc67.html#LauterS13</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ches/BosCHL13" mdate="2017-05-21">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="98/7227">Craig Costello</author>
+<author pid="44/5656">Hüseyin Hisil</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>High-Performance Scalar Multiplication Using 8-Dimensional GLV/GLS Decomposition.</title>
+<pages>331-348</pages>
+<year>2013</year>
+<crossref>conf/ches/2013</crossref>
+<booktitle>CHES</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-40349-1_19</ee>
+<url>db/conf/ches/ches2013.html#BosCHL13</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/eurocrypt/BosCHL13" mdate="2018-06-26">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="98/7227">Craig Costello</author>
+<author pid="44/5656">Hüseyin Hisil</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Fast Cryptography in Genus 2.</title>
+<pages>194-210</pages>
+<year>2013</year>
+<booktitle>EUROCRYPT</booktitle>
+<ee type="oa">https://doi.org/10.1007/978-3-642-38348-9_12</ee>
+<crossref>conf/eurocrypt/2013</crossref>
+<url>db/conf/eurocrypt/eurocrypt2013.html#BosCHL13</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/ima/BosLLN13" mdate="2020-03-18">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="24/9839">Jake Loftus</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Improved Security for a Ring-Based Fully Homomorphic Encryption Scheme.</title>
+<pages>45-64</pages>
+<year>2013</year>
+<booktitle>IMACC</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-45239-0_4</ee>
+<crossref>conf/ima/2013</crossref>
+<url>db/conf/ima/ima2013.html#BosLLN13</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BosLLN13" mdate="2020-05-11">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="24/9839">Jake Loftus</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Improved Security for a Ring-Based Fully Homomorphic Encryption Scheme.</title>
+<pages>75</pages>
+<year>2013</year>
+<volume>2013</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2013/075</ee>
+<url>db/journals/iacr/iacr2013.html#BosLLN13</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BosCHL13" mdate="2020-05-11">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="98/7227">Craig Costello</author>
+<author pid="44/5656">Hüseyin Hisil</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>High-Performance Scalar Multiplication using 8-Dimensional GLV/GLS Decomposition.</title>
+<pages>146</pages>
+<year>2013</year>
+<volume>2013</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2013/146</ee>
+<url>db/journals/iacr/iacr2013.html#BosCHL13</url>
+</article>
+</r>
+<r>
+<article key="journals/moc/BrokerLS12" mdate="2021-02-17">
+<author pid="10/3914">Reinier Bröker</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="81/4339">Andrew V. Sutherland</author>
+<title>Modular polynomials via isogeny volcanoes.</title>
+<year>2012</year>
+<volume>81</volume>
+<journal>Math. Comput.</journal>
+<number>278</number>
+<ee type="oa">https://doi.org/10.1090/S0025-5718-2011-02508-1</ee>
+<url>db/journals/moc/moc81.html#BrokerLS12</url>
+<pages>1201-1231</pages>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ccs/Lauter12" mdate="2018-11-06">
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Practical applications of homomorphic encryption.</title>
+<pages>57-58</pages>
+<year>2012</year>
+<booktitle>CCSW</booktitle>
+<ee>https://doi.org/10.1145/2381913.2381924</ee>
+<crossref>conf/ccs/2012ccsw</crossref>
+<url>db/conf/ccs/ccsw2012.html#Lauter12</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/icisc/GraepelLN12" mdate="2017-05-26">
+<author pid="g/ThoreGraepel">Thore Graepel</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>ML Confidential: Machine Learning on Encrypted Data.</title>
+<pages>1-21</pages>
+<year>2012</year>
+<booktitle>ICISC</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-37682-5_1</ee>
+<crossref>conf/icisc/2012</crossref>
+<url>db/conf/icisc/icisc2012.html#GraepelLN12</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/pairing/AcarLNS12" mdate="2017-05-22">
+<author pid="43/5044">Tolga Acar</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="24/7481">Daniel Shumow</author>
+<title>Affine Pairings on ARM.</title>
+<pages>203-209</pages>
+<year>2012</year>
+<booktitle>Pairing</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-36334-4_13</ee>
+<crossref>conf/pairing/2012</crossref>
+<url>db/conf/pairing/pairing2012.html#AcarLNS12</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/GraepelLN12" mdate="2020-05-11">
+<author pid="g/ThoreGraepel">Thore Graepel</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>ML Confidential: Machine Learning on Encrypted Data.</title>
+<pages>323</pages>
+<year>2012</year>
+<volume>2012</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2012/323</ee>
+<url>db/journals/iacr/iacr2012.html#GraepelLN12</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterR12" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="48/7483">Damien Robert</author>
+<title>Improved CRT Algorithm for Class Polynomials in Genus 2.</title>
+<pages>443</pages>
+<year>2012</year>
+<volume>2012</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2012/443</ee>
+<url>db/journals/iacr/iacr2012.html#LauterR12</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterV12" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="121/9534">Bianca Viray</author>
+<title>An arithmetic intersection formula for denominators of Igusa class polynomials.</title>
+<pages>614</pages>
+<year>2012</year>
+<volume>2012</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2012/614</ee>
+<url>db/journals/iacr/iacr2012.html#LauterV12</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BosCHL12" mdate="2020-05-11">
+<author pid="02/7441">Joppe W. Bos</author>
+<author pid="98/7227">Craig Costello</author>
+<author pid="44/5656">Hüseyin Hisil</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Two is Greater than One.</title>
+<pages>670</pages>
+<year>2012</year>
+<volume>2012</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2012/670</ee>
+<url>db/journals/iacr/iacr2012.html#BosCHL12</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ccs/NaehrigLV11" mdate="2018-11-26">
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="v/VinodVaikuntanathan">Vinod Vaikuntanathan</author>
+<title>Can homomorphic encryption be practical?</title>
+<pages>113-124</pages>
+<year>2011</year>
+<booktitle>CCSW</booktitle>
+<ee>https://dl.acm.org/citation.cfm?id=2046682</ee>
+<crossref>conf/ccs/2011ccsw</crossref>
+<url>db/conf/ccs/ccsw2011.html#NaehrigLV11</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/indocrypt/CostelloLN11" mdate="2017-05-19">
+<author pid="98/7227">Craig Costello</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Attractive Subfamilies of BLS Curves for Implementing High-Security Pairings.</title>
+<pages>320-342</pages>
+<year>2011</year>
+<booktitle>INDOCRYPT</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-25578-6_23</ee>
+<crossref>conf/indocrypt/2011</crossref>
+<url>db/conf/indocrypt/indocrypt2011.html#CostelloLN11</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/sacrypt/CostelloL11" mdate="2018-06-26">
+<author pid="98/7227">Craig Costello</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Group Law Computations on Jacobians of Hyperelliptic Curves.</title>
+<pages>92-117</pages>
+<year>2011</year>
+<booktitle>Selected Areas in Cryptography</booktitle>
+<ee type="oa">https://doi.org/10.1007/978-3-642-28496-0_6</ee>
+<crossref>conf/sacrypt/2011</crossref>
+<url>db/conf/sacrypt/sacrypt2011.html#CostelloL11</url>
+</inproceedings>
+</r>
+<r>
+<incollection key="books/ams/11/GrundmanJLSVW11" mdate="2020-06-08">
+<author pid="19/3015">Helen G. Grundman</author>
+<author pid="266/7590">Jennifer Johnson-Leung</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="260/9688">Adriana Salerno</author>
+<author pid="121/9534">Bianca Viray</author>
+<author pid="266/7775">Erika Wittenborn</author>
+<title>Igusa Class Polynomials, Embedding of Quartic CM Fields, and Arithmetic Intersection Theory.</title>
+<pages>35-60</pages>
+<year>2011</year>
+<booktitle>WIN - Women in Numbers</booktitle>
+<crossref>books/ams/11/CLPS2011</crossref>
+<url>db/books/collections/CLPS2011.html#GrundmanJLSVW11</url>
+</incollection>
+</r>
+<r>
+<book key="books/ams/11/CLPS2011" mdate="2020-06-08">
+<editor pid="266/7946">Alina-Carmen Cojocaru</editor>
+<editor pid="08/1510">Kristin E. Lauter</editor>
+<editor pid="266/8149">Rachel Pries</editor>
+<editor pid="s/RenateScheidler">Renate Scheidler</editor>
+<title>WIN - Women in Numbers - Research Directions in Number Theory.</title>
+<booktitle>WIN - Women in Numbers</booktitle>
+<publisher>American Mathematical Society</publisher>
+<year>2011</year>
+<series>Fields Institute Communications</series>
+<volume>60</volume>
+<isbn>978-0-8218-5226-2</isbn>
+<ee>https://bookstore.ams.org/fic-60/</ee>
+<url>db/books/collections/CLPS2011.html</url>
+</book>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/ChaseL11" mdate="2020-05-11">
+<author pid="06/1661">Melissa Chase</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>An Anonymous Health Care System.</title>
+<pages>16</pages>
+<year>2011</year>
+<volume>2011</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2011/016</ee>
+<url>db/journals/iacr/iacr2011.html#ChaseL11</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/AcarLNS11" mdate="2020-05-11">
+<author pid="43/5044">Tolga Acar</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="24/7481">Daniel Shumow</author>
+<title>Affine Pairings on ARM.</title>
+<pages>243</pages>
+<year>2011</year>
+<volume>2011</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2011/243</ee>
+<url>db/journals/iacr/iacr2011.html#AcarLNS11</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CostelloL11" mdate="2020-05-11">
+<author pid="98/7227">Craig Costello</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Group Law Computations on Jacobians of Hyperelliptic Curves.</title>
+<pages>306</pages>
+<year>2011</year>
+<volume>2011</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2011/306</ee>
+<url>db/journals/iacr/iacr2011.html#CostelloL11</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterNV11" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<author pid="v/VinodVaikuntanathan">Vinod Vaikuntanathan</author>
+<title>Can Homomorphic Encryption be Practical?</title>
+<pages>405</pages>
+<year>2011</year>
+<volume>2011</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2011/405</ee>
+<url>db/journals/iacr/iacr2011.html#LauterNV11</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CostelloLN11" mdate="2020-05-11">
+<author pid="98/7227">Craig Costello</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>Attractive Subfamilies of BLS Curves for Implementing High-Security Pairings.</title>
+<pages>465</pages>
+<year>2011</year>
+<volume>2011</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2011/465</ee>
+<url>db/journals/iacr/iacr2011.html#CostelloLN11</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/GorenL11" mdate="2020-05-11">
+<author pid="99/294">Eyal Z. Goren</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>A Gross-Zagier formula for quaternion algebras over totally real fields.</title>
+<pages>666</pages>
+<year>2011</year>
+<volume>2011</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2011/666</ee>
+<url>db/journals/iacr/iacr2011.html#GorenL11</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/fc/KamaraL10" mdate="2017-05-26">
+<author pid="66/664">Seny Kamara</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Cryptographic Cloud Storage.</title>
+<pages>136-149</pages>
+<year>2010</year>
+<booktitle>Financial Cryptography Workshops</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-14992-4_13</ee>
+<crossref>conf/fc/2010w</crossref>
+<url>db/conf/fc/fc2010w.html#KamaraL10</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/pairing/LauterMN10" mdate="2017-05-22">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>An Analysis of Affine Coordinates for Pairing Computation.</title>
+<pages>1-20</pages>
+<year>2010</year>
+<booktitle>Pairing</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-17455-1_1</ee>
+<crossref>conf/pairing/2010</crossref>
+<url>db/conf/pairing/pairing2010.html#LauterMN10</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/uss/ChaseL10" mdate="2021-02-01">
+<author pid="06/1661">Melissa Chase</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>An Anonymous Health Care System.</title>
+<year>2010</year>
+<booktitle>HealthSec</booktitle>
+<ee type="oa">https://www.usenix.org/conference/healthsec10/anonymous-health-care-system</ee>
+<crossref>conf/uss/2010healthsec</crossref>
+<url>db/conf/uss/healthsec2010.html#ChaseL10</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/GorenL10" mdate="2020-05-11">
+<author pid="99/294">Eyal Z. Goren</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Genus 2 Curves with Complex Multiplication.</title>
+<pages>156</pages>
+<year>2010</year>
+<volume>2010</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2010/156</ee>
+<url>db/journals/iacr/iacr2010.html#GorenL10</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterY10" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="26/10308">Tonghai Yang</author>
+<title>Computing genus 2 curves from invariants on the Hilbert moduli space.</title>
+<pages>294</pages>
+<year>2010</year>
+<volume>2010</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2010/294</ee>
+<url>db/journals/iacr/iacr2010.html#LauterY10</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterMN10" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<author pid="57/6968">Michael Naehrig</author>
+<title>An Analysis of Affine Coordinates for Pairing Computation.</title>
+<pages>363</pages>
+<year>2010</year>
+<volume>2010</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2010/363</ee>
+<url>db/journals/iacr/iacr2010.html#LauterMN10</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterS10" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="93/2290">Ning Shang</author>
+<title>Generating Pairing-friendly Parameters for the CM Construction of Genus 2 Curves over Prime Fields.</title>
+<pages>529</pages>
+<year>2010</year>
+<volume>2010</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2010/529</ee>
+<url>db/journals/iacr/iacr2010.html#LauterS10</url>
+</article>
+</r>
+<r>
+<article key="journals/ijicot/CharlesJL09" mdate="2020-09-24">
+<author pid="04/3166">Denis Xavier Charles</author>
+<author pid="13/4619">Kamal Jain</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Signatures for network coding.</title>
+<pages>3-14</pages>
+<year>2009</year>
+<volume>1</volume>
+<journal>Int. J. Inf. Coding Theory</journal>
+<number>1</number>
+<ee>https://doi.org/10.1504/IJICOT.2009.024044</ee>
+<url>db/journals/ijicot/ijicot1.html#CharlesJL09</url>
+</article>
+</r>
+<r>
+<article key="journals/joc/CharlesLG09" mdate="2020-09-18">
+<author pid="04/3166">Denis Xavier Charles</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="99/294">Eyal Z. Goren</author>
+<title>Cryptographic Hash Functions from Expander Graphs.</title>
+<pages>93-113</pages>
+<year>2009</year>
+<volume>22</volume>
+<journal>J. Cryptol.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1007/s00145-007-9002-x</ee>
+<url>db/journals/joc/joc22.html#CharlesLG09</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ccs/BenalohCHL09" mdate="2018-11-06">
+<author pid="53/5909">Josh Benaloh</author>
+<author pid="06/1661">Melissa Chase</author>
+<author pid="h/EricHorvitz">Eric Horvitz</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Patient controlled encryption: ensuring privacy of electronic medical records.</title>
+<pages>103-114</pages>
+<year>2009</year>
+<booktitle>CCSW</booktitle>
+<ee>https://doi.org/10.1145/1655008.1655024</ee>
+<crossref>conf/ccs/2009ccsw</crossref>
+<url>db/conf/ccs/ccsw2009.html#BenalohCHL09</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/ants/BeldingBEL08" mdate="2019-07-29">
+<author pid="60/74">Juliana Belding</author>
+<author pid="10/3914">Reinier Bröker</author>
+<author pid="e/AEnge">Andreas Enge</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing Hilbert Class Polynomials.</title>
+<pages>282-295</pages>
+<year>2008</year>
+<booktitle>ANTS</booktitle>
+<ee>https://doi.org/10.1007/978-3-540-79456-1_19</ee>
+<ee>https://www.wikidata.org/entity/Q64387957</ee>
+<crossref>conf/ants/2008</crossref>
+<url>db/conf/ants/ants2008.html#BeldingBEL08</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/pairing/BrokerCL08" mdate="2017-05-22">
+<author pid="10/3914">Reinier Bröker</author>
+<author pid="04/3166">Denis Xavier Charles</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Evaluating Large Degree Isogenies and Applications to Pairing Based Cryptography.</title>
+<pages>100-112</pages>
+<year>2008</year>
+<booktitle>Pairing</booktitle>
+<ee>https://doi.org/10.1007/978-3-540-85538-5_7</ee>
+<crossref>conf/pairing/2008</crossref>
+<url>db/conf/pairing/pairing2008.html#BrokerCL08</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/pairing/EisentragerJL08" mdate="2017-05-22">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="11/3871">Dimitar Jetchev</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing the Cassels Pairing on Kolyvagin Classes in the Shafarevich-Tate Group.</title>
+<pages>113-125</pages>
+<year>2008</year>
+<booktitle>Pairing</booktitle>
+<ee>https://doi.org/10.1007/978-3-540-85538-5_8</ee>
+<crossref>conf/pairing/2008</crossref>
+<url>db/conf/pairing/pairing2008.html#EisentragerJL08</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/sacrypt/LauterS08" mdate="2018-06-26">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>The Elliptic Curve Discrete Logarithm Problem and Equivalent Hard Problems for Elliptic Divisibility Sequences.</title>
+<pages>309-327</pages>
+<year>2008</year>
+<booktitle>Selected Areas in Cryptography</booktitle>
+<ee type="oa">https://doi.org/10.1007/978-3-642-04159-4_20</ee>
+<crossref>conf/sacrypt/2008</crossref>
+<url>db/conf/sacrypt/sacrypt2008.html#LauterS08</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/scn/PetitLQ08" mdate="2019-06-02">
+<author orcid="0000-0003-3482-6743" pid="52/2168">Christophe Petit</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="q/JJQuisquater">Jean-Jacques Quisquater</author>
+<title>Full Cryptanalysis of LPS and Morgenstern Hash Functions.</title>
+<pages>263-277</pages>
+<year>2008</year>
+<booktitle>SCN</booktitle>
+<ee>https://doi.org/10.1007/978-3-540-85855-3_18</ee>
+<ee>https://www.wikidata.org/entity/Q62047275</ee>
+<crossref>conf/scn/2008</crossref>
+<url>db/conf/scn/scn2008.html#PetitLQ08</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BeldingBEL08" mdate="2020-05-11">
+<author pid="60/74">Juliana Belding</author>
+<author pid="10/3914">Reinier Bröker</author>
+<author pid="e/AEnge">Andreas Enge</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing Hilbert Class Polynomials.</title>
+<pages>62</pages>
+<year>2008</year>
+<volume>2008</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2008/062</ee>
+<url>db/journals/iacr/iacr2008.html#BeldingBEL08</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterS08" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="47/3884">Katherine E. Stange</author>
+<title>The Elliptic Curve Discrete Logarithm Problem and Equivalent Hard Problems for Elliptic Divisibility Sequences.</title>
+<pages>99</pages>
+<year>2008</year>
+<volume>2008</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2008/099</ee>
+<url>db/journals/iacr/iacr2008.html#LauterS08</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/BrokerL08" mdate="2020-05-11">
+<author pid="10/3914">Reinier Bröker</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Modular polynomials for genus 2.</title>
+<pages>161</pages>
+<year>2008</year>
+<volume>2008</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2008/161</ee>
+<url>db/journals/iacr/iacr2008.html#BrokerL08</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/PetitLQ08" mdate="2020-05-11">
+<author pid="52/2168">Christophe Petit</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="q/JJQuisquater">Jean-Jacques Quisquater</author>
+<title>Full Cryptanalysis of LPS and Morgenstern Hash Function.</title>
+<pages>173</pages>
+<year>2008</year>
+<volume>2008</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2008/173</ee>
+<url>db/journals/iacr/iacr2008.html#PetitLQ08</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/rfc/rfc5349" mdate="2019-05-14">
+<author pid="209/5089">Larry Zhu</author>
+<author pid="209/5088">Karthik Jaganathan</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Elliptic Curve Cryptography (ECC) Support for Public Key Cryptography for Initial Authentication in Kerberos (PKINIT).</title>
+<year>2008</year>
+<pages>1-10</pages>
+<journal>RFC</journal>
+<volume>5349</volume>
+<month>September</month>
+<ee type="oa">https://doi.org/10.17487/RFC5349</ee>
+<ee>https://www.wikidata.org/entity/Q47483108</ee>
+<url>db/journals/rfc/rfc5300-5399.html</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/provsec/LaMacchiaLM07" mdate="2017-05-21">
+<author pid="35/4740">Brian A. LaMacchia</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="64/4143">Anton Mityagin</author>
+<title>Stronger Security of Authenticated Key Exchange.</title>
+<pages>1-16</pages>
+<year>2007</year>
+<crossref>conf/provsec/2007</crossref>
+<booktitle>ProvSec</booktitle>
+<ee>https://doi.org/10.1007/978-3-540-75670-5_1</ee>
+<url>db/conf/provsec/provsec2007.html#LaMacchiaLM07</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/FreemanL07" mdate="2020-05-11">
+<author pid="38/7225">David Freeman 0001</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing endomorphism rings of Jacobians of genus 2 curves over finite fields.</title>
+<pages>10</pages>
+<year>2007</year>
+<volume>2007</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2007/010</ee>
+<url>db/journals/iacr/iacr2007.html#FreemanL07</url>
+</article>
+</r>
+<r>
+<article key="journals/dcc/CietJLM06" mdate="2019-06-17">
+<author pid="50/5133">Mathieu Ciet</author>
+<author pid="j/MarcJoye">Marc Joye</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<title>Trading Inversions for Multiplications in Elliptic Curve Cryptography.</title>
+<pages>189-206</pages>
+<year>2006</year>
+<volume>39</volume>
+<journal>Des. Codes Cryptogr.</journal>
+<number>2</number>
+<ee>https://doi.org/10.1007/s10623-005-3299-y</ee>
+<url>db/journals/dcc/dcc39.html#CietJLM06</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/pkc/LauterM06" mdate="2018-06-26">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="64/4143">Anton Mityagin</author>
+<title>Security Analysis of KEA Authenticated Key Exchange Protocol.</title>
+<pages>378-394</pages>
+<year>2006</year>
+<crossref>conf/pkc/2006</crossref>
+<booktitle>Public Key Cryptography</booktitle>
+<ee type="oa">https://doi.org/10.1007/11745853_25</ee>
+<url>db/conf/pkc/pkc2006.html#LauterM06</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CharlesGL06" mdate="2020-05-11">
+<author pid="04/3166">Denis Xavier Charles</author>
+<author pid="99/294">Eyal Z. Goren</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Cryptographic hash functions from expander graphs.</title>
+<pages>21</pages>
+<year>2006</year>
+<volume>2006</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2006/021</ee>
+<url>db/journals/iacr/iacr2006.html#CharlesGL06</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CharlesJL06" mdate="2020-05-11">
+<author pid="04/3166">Denis Xavier Charles</author>
+<author pid="13/4619">Kamal Jain</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Signatures for Network Coding.</title>
+<pages>25</pages>
+<year>2006</year>
+<volume>2006</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2006/025</ee>
+<url>db/journals/iacr/iacr2006.html#CharlesJL06</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LaMacchiaLM06" mdate="2020-05-11">
+<author pid="35/4740">Brian A. LaMacchia</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="64/4143">Anton Mityagin</author>
+<title>Stronger Security of Authenticated Key Exchange.</title>
+<pages>73</pages>
+<year>2006</year>
+<volume>2006</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2006/073</ee>
+<url>db/journals/iacr/iacr2006.html#LaMacchiaLM06</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/LauterM05" mdate="2020-05-11">
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="64/4143">Anton Mityagin</author>
+<title>Security Analysis of KEA Authenticated Key Exchange Protocol.</title>
+<pages>265</pages>
+<year>2005</year>
+<volume>2005</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2005/265</ee>
+<url>db/journals/iacr/iacr2005.html#LauterM05</url>
+</article>
+</r>
+<r>
+<article key="journals/wc/Lauter04" mdate="2020-03-24">
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>The advantages of elliptic curve cryptography for wireless security.</title>
+<pages>62-67</pages>
+<year>2004</year>
+<volume>11</volume>
+<journal>IEEE Wirel. Commun.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1109/MWC.2004.1269719</ee>
+<url>db/journals/wc/wc11.html#Lauter04</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ants/EisentragerLM04" mdate="2017-05-26">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<title>Improved Weil and Tate Pairings for Elliptic and Hyperelliptic Curves.</title>
+<pages>169-183</pages>
+<ee>https://doi.org/10.1007/978-3-540-24847-7_12</ee>
+<year>2004</year>
+<crossref>conf/ants/2004</crossref>
+<booktitle>ANTS</booktitle>
+<url>db/conf/ants/ants2004.html#EisentragerLM04</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CharlesL04" mdate="2020-05-11">
+<author pid="04/3166">Denis Xavier Charles</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Computing Modular Polynomials.</title>
+<pages>189</pages>
+<year>2004</year>
+<volume>2004</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2004/189</ee>
+<url>db/journals/iacr/iacr2004.html#CharlesL04</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ctrsa/EisentragerLM03" mdate="2017-05-21">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<title>Fast Elliptic Curve Arithmetic and Improved Weil Pairing Evaluation.</title>
+<pages>343-354</pages>
+<year>2003</year>
+<crossref>conf/ctrsa/2003</crossref>
+<booktitle>CT-RSA</booktitle>
+<ee>https://doi.org/10.1007/3-540-36563-X_24</ee>
+<url>db/conf/ctrsa/ctrsa2003.html#EisentragerLM03</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/EisentragerLM03" mdate="2020-05-11">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<title>Improved Weil and Tate pairings for elliptic and hyperelliptic curves.</title>
+<pages>242</pages>
+<year>2003</year>
+<volume>2003</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2003/242</ee>
+<url>db/journals/iacr/iacr2003.html#EisentragerLM03</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/CietJLM03" mdate="2020-05-11">
+<author pid="50/5133">Mathieu Ciet</author>
+<author pid="j/MarcJoye">Marc Joye</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<title>Trading Inversions for Multiplications in Elliptic Curve Cryptography.</title>
+<pages>257</pages>
+<year>2003</year>
+<volume>2003</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2003/257</ee>
+<url>db/journals/iacr/iacr2003.html#CietJLM03</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/EisentragerLM02" mdate="2020-05-11">
+<author pid="42/5979">Kirsten Eisenträger</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="83/2204">Peter L. Montgomery</author>
+<title>An Efficient Procedure to Double and Add Points on an Elliptic Curve.</title>
+<pages>112</pages>
+<year>2002</year>
+<volume>2002</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2002/112</ee>
+<url>db/journals/iacr/iacr2002.html#EisentragerLM02</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/iacr/AgasheLV01" mdate="2020-05-11">
+<author pid="66/9213">Amod Agashe</author>
+<author pid="08/1510">Kristin E. Lauter</author>
+<author pid="v/RamarathnamVenkatesan">Ramarathnam Venkatesan</author>
+<title>Constructing elliptic curves with a given number of points over a finite field.</title>
+<pages>96</pages>
+<year>2001</year>
+<volume>2001</volume>
+<journal>IACR Cryptol. ePrint Arch.</journal>
+<ee type="oa">http://eprint.iacr.org/2001/096</ee>
+<url>db/journals/iacr/iacr2001.html#AgasheLV01</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/ants/Lauter96" mdate="2017-05-22">
+<author pid="08/1510">Kristin E. Lauter</author>
+<title>Ray Class Field Constructions of Curves over Finite Fields with Many Rational Points.</title>
+<pages>187-195</pages>
+<year>1996</year>
+<crossref>conf/ants/1996</crossref>
+<booktitle>ANTS</booktitle>
+<url>db/conf/ants/ants1996.html#Lauter96</url>
+<ee>https://doi.org/10.1007/3-540-61581-4_54</ee>
+</inproceedings>
+</r>
+<coauthors n="179" nc="5">
+<co c="0">
+<na f="a/Acar:Tolga" pid="43/5044">Tolga Acar</na>
+</co>
+<co c="0">
+<na f="a/Agashe:Amod" pid="66/9213">Amod Agashe</na>
+</co>
+<co c="0">
+<na f="a/Albrecht:Martin_R=" pid="92/7397">Martin R. Albrecht</na>
+</co>
+<co c="0">
+<na f="a/Aloufi:Asma" pid="202/9037">Asma Aloufi</na>
+</co>
+<co c="0">
+<na f="a/Amor=oacute=s:Laia" pid="259/9958">Laia Amorós</na>
+</co>
+<co c="0">
+<na f="a/Anderson:Sarah" pid="187/8065">Sarah Anderson</na>
+</co>
+<co c="0">
+<na f="a/Arpin:Sarah" pid="251/1546">Sarah Arpin</na>
+</co>
+<co c="0">
+<na f="b/Balakrishnan:Jennifer_S=" pid="99/8295">Jennifer S. Balakrishnan</na>
+</co>
+<co c="0">
+<na f="b/Belding:Juliana" pid="60/74">Juliana Belding</na>
+</co>
+<co c="0">
+<na f="b/Benaloh:Josh" pid="53/5909">Josh Benaloh</na>
+</co>
+<co c="0" n="2">
+<na f="b/Bilenko:Mikhail" pid="13/1269">Mikhail Bilenko</na>
+<na>Misha Bilenko</na>
+</co>
+<co c="0">
+<na f="b/Bloss:Cinnamon_S=" pid="174/5600">Cinnamon S. Bloss</na>
+</co>
+<co c="2">
+<na f="b/Bolkema:Jessalyn" pid="192/1906">Jessalyn Bolkema</na>
+</co>
+<co c="0">
+<na f="b/Boneh:Dan" pid="b/DanBoneh">Dan Boneh</na>
+</co>
+<co c="0">
+<na f="b/Bos:Joppe_W=" pid="02/7441">Joppe W. Bos</na>
+</co>
+<co c="0">
+<na f="b/Br=ouml=ker:Reinier" pid="10/3914">Reinier Bröker</na>
+</co>
+<co c="0">
+<na f="b/Buchmann_0001:Johannes" pid="b/JohannesBuchmann">Johannes Buchmann 0001</na>
+</co>
+<co c="0">
+<na f="b/Burns:Jane_C=" pid="197/8513">Jane C. Burns</na>
+</co>
+<co c="0">
+<na f="c/Camacho=Navarro:Catalina" pid="251/1502">Catalina Camacho-Navarro</na>
+</co>
+<co c="0">
+<na f="=/=Ccedil=etin:Gizem_S=" pid="161/6295">Gizem S. Çetin</na>
+</co>
+<co c="0">
+<na f="c/Charles:Denis_Xavier" pid="04/3166">Denis Xavier Charles</na>
+</co>
+<co c="0">
+<na f="c/Chase:Melissa" pid="06/1661">Melissa Chase</na>
+</co>
+<co c="0">
+<na f="c/Chen_0016:Feng" pid="21/3047-16">Feng Chen 0016</na>
+</co>
+<co c="0">
+<na f="c/Chen_0030:Hao" pid="175/3324-30">Hao Chen 0030</na>
+</co>
+<co c="0">
+<na f="c/Chen_0012:Kai" pid="c/KaiChen12">Kai Chen 0012</na>
+</co>
+<co c="0">
+<na f="c/Chen:Mingjie" pid="87/7674">Mingjie Chen</na>
+</co>
+<co c="0">
+<na f="c/Chen:Mingliang" pid="122/9619">Mingliang Chen</na>
+</co>
+<co c="0">
+<na f="c/Cheon:Jung_Hee" pid="64/5207">Jung Hee Cheon</na>
+</co>
+<co c="0">
+<na f="c/Chua:Lynn" pid="143/4392">Lynn Chua</na>
+</co>
+<co c="0">
+<na f="c/Ciet:Mathieu" pid="50/5133">Mathieu Ciet</na>
+</co>
+<co c="0">
+<na f="c/Cojocaru:Alina=Carmen" pid="266/7946">Alina-Carmen Cojocaru</na>
+</co>
+<co c="0">
+<na f="c/Costache:Anamaria" pid="168/7892">Anamaria Costache</na>
+</co>
+<co c="0">
+<na f="c/Costello:Craig" pid="98/7227">Craig Costello</na>
+</co>
+<co c="0">
+<na f="d/Dachman=Soled:Dana" pid="38/6981">Dana Dachman-Soled</na>
+</co>
+<co c="0">
+<na f="d/Dai:Wenrui" pid="16/5135">Wenrui Dai</na>
+</co>
+<co c="0">
+<na f="d/Dathathri:Roshan" pid="135/5410">Roshan Dathathri</na>
+</co>
+<co c="0">
+<na f="d/Deines=Schartz:Alyson" pid="146/7921">Alyson Deines-Schartz</na>
+</co>
+<co c="0">
+<na f="d/Ding:Jintai" pid="42/393">Jintai Ding</na>
+</co>
+<co c="0">
+<na f="d/Ding:Sijie" pid="197/8124">Sijie Ding</na>
+</co>
+<co c="0">
+<na f="d/Dowlin:Nathan" pid="182/8929">Nathan Dowlin</na>
+</co>
+<co c="0">
+<na f="e/Eisentr=auml=ger:Kirsten" pid="42/5979">Kirsten Eisenträger</na>
+</co>
+<co c="0">
+<na f="e/Elias:Yara" pid="159/1717">Yara Elias</na>
+</co>
+<co c="0">
+<na f="e/Enge:Andreas" pid="e/AEnge">Andreas Enge</na>
+</co>
+<co c="0">
+<na f="f/Feigon:Brooke" pid="222/3179">Brooke Feigon</na>
+</co>
+<co c="0">
+<na f="f/Feng:Tony" pid="150/2232">Tony Feng</na>
+</co>
+<co c="0">
+<na f="f/Finley:Tom" pid="156/0184">Tom Finley</na>
+</co>
+<co c="0">
+<na f="f/Fox:Dov" pid="176/2625">Dov Fox</na>
+</co>
+<co c="0" n="2">
+<na f="f/Freeman:David_Mandell" pid="38/7225">David Mandell Freeman</na>
+<na>David Freeman 0001</na>
+</co>
+<co c="3">
+<na f="f/Fuchs:Elena" pid="298/0588">Elena Fuchs</na>
+</co>
+<co c="0">
+<na f="g/Gilad=Bachrach:Ran" pid="g/RGiladBachrach">Ran Gilad-Bachrach</na>
+</co>
+<co c="0">
+<na f="g/Glass:Darren_B=" pid="140/4504">Darren B. Glass</na>
+</co>
+<co c="2">
+<na f="g/Gluesing=Luerssen:Heide" pid="87/5564">Heide Gluesing-Luerssen</na>
+</co>
+<co c="0">
+<na f="g/Goldwasser:Shafi" pid="g/ShafiGoldwasser">Shafi Goldwasser</na>
+</co>
+<co c="0">
+<na f="g/Gorbunov_0001:Sergey" pid="117/3299-1">Sergey Gorbunov 0001</na>
+</co>
+<co c="0">
+<na f="g/Goren:Eyal_Z=" pid="99/294">Eyal Z. Goren</na>
+</co>
+<co c="0">
+<na f="g/Graepel:Thore" pid="g/ThoreGraepel">Thore Graepel</na>
+</co>
+<co c="1">
+<na f="g/Grundman:Helen_G=" pid="19/3015">Helen G. Grundman</na>
+</co>
+<co c="0">
+<na f="h/Halevi:Shai" pid="65/4781">Shai Halevi</na>
+</co>
+<co c="0">
+<na f="h/Hallgren:Sean" pid="59/5133">Sean Hallgren</na>
+</co>
+<co c="0">
+<na f="h/Han:Kyoohyung" pid="153/9854">Kyoohyung Han</na>
+</co>
+<co c="0">
+<na f="h/Hibberd:Martin_L=" pid="197/8498">Martin L. Hibberd</na>
+</co>
+<co c="0">
+<na f="h/Hisil:H=uuml=seyin" pid="44/5656">Hüseyin Hisil</na>
+</co>
+<co c="0">
+<na f="h/Hoffstein:Jeffrey" pid="61/6497">Jeffrey Hoffstein</na>
+</co>
+<co c="0">
+<na f="h/Horvitz:Eric" pid="h/EricHorvitz">Eric Horvitz</na>
+</co>
+<co c="0">
+<na f="h/Hu:Peizhao" pid="14/4214">Peizhao Hu</na>
+</co>
+<co c="0">
+<na f="h/Huang:Weihao" pid="213/2191">Weihao Huang</na>
+</co>
+<co c="0">
+<na f="h/Huang:Zhicong" pid="128/9270">Zhicong Huang</na>
+</co>
+<co c="0" n="2">
+<na f="h/Hussain:Siam_U=" pid="154/2953">Siam U. Hussain</na>
+<na>Siam Umar Hussain</na>
+</co>
+<co c="0">
+<na f="i/Iezzi:Annamaria" pid="222/2001">Annamaria Iezzi</na>
+</co>
+<co c="0">
+<na f="i/Ionica:Sorina" pid="17/6416">Sorina Ionica</na>
+</co>
+<co c="0">
+<na f="i/Ismayilzada:Elkhan" pid="290/8027">Elkhan Ismayilzada</na>
+</co>
+<co c="4">
+<na f="j/Jaganathan:Karthik" pid="209/5088">Karthik Jaganathan</na>
+</co>
+<co c="0">
+<na f="j/Jain:Kamal" pid="13/4619">Kamal Jain</na>
+</co>
+<co c="0">
+<na f="j/Jalali:Amir" pid="183/5675">Amir Jalali</na>
+</co>
+<co c="0">
+<na f="j/Jetchev:Dimitar" pid="11/3871">Dimitar Jetchev</na>
+</co>
+<co c="0">
+<na f="j/Jiang:Xiaoqian" pid="43/3924">Xiaoqian Jiang</na>
+</co>
+<co c="0">
+<na f="j/Jiang:Yichen" pid="118/7206">Yichen Jiang</na>
+</co>
+<co c="1">
+<na f="j/Johnson=Leung:Jennifer" pid="266/7590">Jennifer Johnson-Leung</na>
+</co>
+<co c="0">
+<na f="j/Joye:Marc" pid="j/MarcJoye">Marc Joye</na>
+</co>
+<co c="0">
+<na f="k/Kamara:Seny" pid="66/664">Seny Kamara</na>
+</co>
+<co c="2">
+<na f="k/Kelley:Christine_A=" pid="16/5441">Christine A. Kelley</na>
+</co>
+<co c="0">
+<na f="k/Kim:Jihoon" pid="51/4060">Jihoon Kim</na>
+</co>
+<co c="0">
+<na f="k/Kim:Miran" pid="135/6577">Miran Kim</na>
+</co>
+<co c="0">
+<na f="k/Kohel:David" pid="35/9726">David Kohel</na>
+</co>
+<co c="0">
+<na f="k/Koushanfar:Farinaz" pid="k/FarinazKoushanfar">Farinaz Koushanfar</na>
+</co>
+<co c="0">
+<na f="k/Krashen:Daniel" pid="223/4791">Daniel Krashen</na>
+</co>
+<co c="0">
+<na f="l/Laine:Kim" pid="146/7941">Kim Laine</na>
+</co>
+<co c="0">
+<na f="l/LaMacchia:Brian_A=" pid="35/4740">Brian A. LaMacchia</na>
+</co>
+<co c="0">
+<na f="l/Lange_0001:Tanja" pid="56/2224">Tanja Lange 0001</na>
+</co>
+<co c="0">
+<na f="l/Lim:Joelle" pid="251/1435">Joelle Lim</na>
+</co>
+<co c="0">
+<na f="l/Lin:Dongdai" pid="44/6488">Dongdai Lin</na>
+</co>
+<co c="0">
+<na f="l/Lisonek:Petr" pid="l/PetrLisonek">Petr Lisonek</na>
+</co>
+<co c="3">
+<na f="l/Litman:Matthew" pid="298/1227">Matthew Litman</na>
+</co>
+<co c="0">
+<na f="l/Lloyd:David_D=" pid="197/8357">David D. Lloyd</na>
+</co>
+<co c="0">
+<na f="l/Loftus:Jake" pid="24/9839">Jake Loftus</na>
+</co>
+<co c="0">
+<na f="l/Lokam:Satya" pid="249/0573">Satya Lokam</na>
+</co>
+<co c="0">
+<na f="l/L=oacute=pez=Alt:Adriana" pid="11/8815">Adriana López-Alt</na>
+</co>
+<co c="0">
+<na f="l/Lu:Yao" pid="26/5662">Yao Lu</na>
+</co>
+<co c="0">
+<na f="m/Maleki:Saeed" pid="76/10701">Saeed Maleki</na>
+</co>
+<co c="2">
+<na f="m/Malmskog:Beth" pid="192/1578">Beth Malmskog</na>
+</co>
+<co c="0">
+<na f="m/Martindale:Chloe" pid="194/2820">Chloe Martindale</na>
+</co>
+<co c="0">
+<na f="m/Massierer:Maike" pid="143/4484">Maike Massierer</na>
+</co>
+<co c="0">
+<na f="m/Micciancio:Daniele" pid="03/3331">Daniele Micciancio</na>
+</co>
+<co c="0">
+<na f="m/Mityagin:Anton" pid="64/4143">Anton Mityagin</na>
+</co>
+<co c="0">
+<na f="m/Montgomery:Peter_L=" pid="83/2204">Peter L. Montgomery</na>
+</co>
+<co c="0">
+<na f="m/Moody:Dustin" pid="82/7619">Dustin Moody</na>
+</co>
+<co c="0">
+<na f="m/Morrison:Travis" pid="216/6315">Travis Morrison</na>
+</co>
+<co c="0">
+<na f="m/Mosca:Michele" pid="95/2541">Michele Mosca</na>
+</co>
+<co c="0" n="2">
+<na f="m/Musuvathi:Madan" pid="95/6578">Madan Musuvathi</na>
+<na>Madanlal Musuvathi</na>
+</co>
+<co c="0">
+<na f="m/Mytkowicz:Todd" pid="09/1276">Todd Mytkowicz</na>
+</co>
+<co c="0">
+<na f="n/Naehrig:Michael" pid="57/6968">Michael Naehrig</na>
+</co>
+<co c="0">
+<na f="n/Nelson:Kristina" pid="207/7969">Kristina Nelson</na>
+</co>
+<co c="0">
+<na f="o/Ohno=Machado:Lucila" pid="71/4212">Lucila Ohno-Machado</na>
+</co>
+<co c="0">
+<na f="o/Ozman:Ekin" pid="159/1673">Ekin Ozman</na>
+</co>
+<co c="0">
+<na f="p/Park:Se_Yong" pid="85/7998">Se Yong Park</na>
+</co>
+<co c="0">
+<na f="p/Petit:Christophe" pid="52/2168">Christophe Petit</na>
+</co>
+<co c="0">
+<na f="p/Png:Eileen" pid="197/8360">Eileen Png</na>
+</co>
+<co c="0">
+<na f="p/Pries:Rachel" pid="266/8149">Rachel Pries</na>
+</co>
+<co c="0">
+<na f="p/Pusk=aacute=s:Anna" pid="222/3159">Anna Puskás</na>
+</co>
+<co c="0">
+<na f="q/Quisquater:Jean=Jacques" pid="q/JJQuisquater">Jean-Jacques Quisquater</na>
+</co>
+<co c="0" n="2">
+<na f="r/Razlighi:Mohammad_Samragh" pid="199/8745">Mohammad Samragh Razlighi</na>
+<na>Mohammad Samragh</na>
+</co>
+<co c="0">
+<na f="r/Riazi:M=_Sadegh" pid="181/9181">M. Sadegh Riazi</na>
+</co>
+<co c="0">
+<na f="r/Rindal:Peter" pid="183/5983">Peter Rindal</na>
+</co>
+<co c="-1">
+<na f="r/Robert:Damien" pid="48/7483">Damien Robert</na>
+</co>
+<co c="0">
+<na f="r/Rodr=iacute=guez=Henr=iacute=quez:Francisco" pid="64/3154">Francisco Rodríguez-Henríquez</na>
+</co>
+<co c="2">
+<na f="r/Rosenthal:Joachim" pid="44/4587">Joachim Rosenthal</na>
+</co>
+<co c="0">
+<na f="r/Rosulek:Mike" pid="r/MikeRosulek">Mike Rosulek</na>
+</co>
+<co c="0" n="2">
+<na f="r/R=ouml=tteler:Martin" pid="r/MartinRottler">Martin Rötteler</na>
+<na>Martin Roetteler</na>
+</co>
+<co c="0">
+<na f="r/Rouhani:Bita_Darvish" pid="157/9224">Bita Darvish Rouhani</na>
+</co>
+<co c="0">
+<na f="s/Saarikivi:Olli" pid="117/9611">Olli Saarikivi</na>
+</co>
+<co c="0">
+<na f="s/Sahai:Amit" pid="s/AmitSahai">Amit Sahai</na>
+</co>
+<co c="0">
+<na f="s/Sahinalp:S=uuml=leyman_Cenk" pid="s/SCSahinalp">Süleyman Cenk Sahinalp</na>
+</co>
+<co c="1">
+<na f="s/Salerno:Adriana" pid="260/9688">Adriana Salerno</na>
+</co>
+<co c="0">
+<na f="s/Scheidler:Renate" pid="s/RenateScheidler">Renate Scheidler</na>
+</co>
+<co c="0">
+<na f="s/Scholl:Travis" pid="200/2057">Travis Scholl</na>
+</co>
+<co c="0">
+<na f="s/Shahverdi:Aria" pid="145/1656">Aria Shahverdi</na>
+</co>
+<co c="0">
+<na f="s/Shams:Shayan" pid="183/8389">Shayan Shams</na>
+</co>
+<co c="-1">
+<na f="s/Shang:Ning" pid="93/2290">Ning Shang</na>
+</co>
+<co c="0">
+<na f="s/Sharif:Shahed" pid="223/4562">Shahed Sharif</na>
+</co>
+<co c="0">
+<na f="s/Shen:Qintao" pid="232/3373">Qintao Shen</na>
+</co>
+<co c="0">
+<na f="s/Shimizu:Chisato" pid="197/8375">Chisato Shimizu</na>
+</co>
+<co c="0">
+<na f="s/Shumow:Daniel" pid="24/7481">Daniel Shumow</na>
+</co>
+<co c="0">
+<na f="s/Silverberg:Alice" pid="02/965">Alice Silverberg</na>
+</co>
+<co c="0">
+<na f="s/Sion:Radu" pid="s/RaduSion">Radu Sion</na>
+</co>
+<co c="0">
+<na f="s/Smart:Nigel_P=" pid="s/NigelPSmart">Nigel P. Smart</na>
+</co>
+<co c="0">
+<na f="s/Song:Yongsoo" pid="145/5981">Yongsoo Song</na>
+</co>
+<co c="0">
+<na f="s/Sot=aacute=kov=aacute=:Jana" pid="251/1549">Jana Sotáková</na>
+</co>
+<co c="0">
+<na f="s/Stange:Katherine_E=" pid="47/3884">Katherine E. Stange</na>
+</co>
+<co c="0">
+<na f="s/Sutherland:Andrew_V=" pid="81/4339">Andrew V. Sutherland</na>
+</co>
+<co c="0">
+<na f="s/Svore:Krysta_M=" pid="s/KMSvore">Krysta M. Svore</na>
+</co>
+<co c="0">
+<na f="t/Tang:Haixu" pid="90/3951">Haixu Tang</na>
+</co>
+<co c="0" n="2">
+<na f="t/Tang:Yuzhe" pid="09/1770">Yuzhe Tang</na>
+<na>Yuzhe Richard Tang</na>
+</co>
+<co c="0">
+<na f="t/Telenti:Amalio" pid="70/7069">Amalio Telenti</na>
+</co>
+<co c="0">
+<na f="t/Tibouchi:Mehdi" pid="65/7423">Mehdi Tibouchi</na>
+</co>
+<co c="0">
+<na f="t/Tignol:Jean=Pierre" pid="148/1605">Jean-Pierre Tignol</na>
+</co>
+<co c="3">
+<na f="t/Tran:Austin" pid="298/1282">Austin Tran</na>
+</co>
+<co c="0">
+<na f="t/Tran:Ha_T=_N=" pid="312/6659">Ha T. N. Tran</na>
+</co>
+<co c="0">
+<na f="v/Vaikuntanathan:Vinod" pid="v/VinodVaikuntanathan">Vinod Vaikuntanathan</na>
+</co>
+<co c="0">
+<na f="v/Venkatesan:Ramarathnam" pid="v/RamarathnamVenkatesan">Ramarathnam Venkatesan</na>
+</co>
+<co c="0">
+<na f="v/Vincent:Christelle" pid="178/5254">Christelle Vincent</na>
+</co>
+<co c="1">
+<na f="v/Viray:Bianca" pid="121/9534">Bianca Viray</na>
+</co>
+<co c="0">
+<na f="w/Wang_0002:Shuang" pid="86/220-2">Shuang Wang 0002</na>
+</co>
+<co c="0">
+<na f="w/Wang_0001:Wenhao" pid="57/9813-1">Wenhao Wang 0001</na>
+</co>
+<co c="0" n="2">
+<na f="w/Wang_0001:XiaoFeng" pid="06/6268">XiaoFeng Wang 0001</na>
+<na>Xiaofeng Wang 0006</na>
+</co>
+<co c="0" n="2">
+<na f="w/Wernsing:John_Robert" pid="08/7942">John Robert Wernsing</na>
+<na>John Wernsing</na>
+</co>
+<co c="1">
+<na f="w/Wittenborn:Erika" pid="266/7775">Erika Wittenborn</na>
+</co>
+<co c="0">
+<na f="w/Wright:Victoria_J=" pid="197/8389">Victoria J. Wright</na>
+</co>
+<co c="0">
+<na f="w/Wu:David_J=" pid="32/10400">David J. Wu</na>
+</co>
+<co c="0">
+<na f="w/Wu_0001:Min" pid="16/0-1">Min Wu 0001</na>
+</co>
+<co c="0">
+<na f="x/Xia:Yuhou" pid="197/1411">Yuhou Xia</na>
+</co>
+<co c="0">
+<na f="x/Xie:Pengtao" pid="133/1998">Pengtao Xie</na>
+</co>
+<co c="0">
+<na f="x/Xiong:Hongkai" pid="21/3569">Hongkai Xiong</na>
+</co>
+<co c="0">
+<na f="y/Yang:Hai" pid="65/2729">Hai Yang</na>
+</co>
+<co c="0">
+<na f="y/Yang:Tonghai" pid="26/10308">Tonghai Yang</na>
+</co>
+<co c="0">
+<na f="y/Yhee:Donggeon" pid="233/0498">Donggeon Yhee</na>
+</co>
+<co c="0">
+<na f="z/Zhandry:Mark" pid="39/10308">Mark Zhandry</na>
+</co>
+<co c="0">
+<na f="z/Zhang_0004:Justin" pid="270/0536">Justin Zhang 0004</na>
+</co>
+<co c="0">
+<na f="z/Zhang:Yuchen" pid="09/5661">Yuchen Zhang</na>
+</co>
+<co c="4">
+<na f="z/Zhu:Larry" pid="209/5089">Larry Zhu</na>
+</co>
+</coauthors>
+</dblpperson>
