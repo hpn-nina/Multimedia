@@ -22,3 +22,41 @@ Pls download [XAMPP](https://www.apachefriends.org/index.html) and MYSQL Connect
 [Tutorial on parse XML file](https://www.geeksforgeeks.org/how-to-store-xml-data-into-a-mysql-database-using-python/)
 
 [Data model](https://1drv.ms/u/s!AhZv8ipaWh2mgrdVHhTwJWOP0iklCw)
+
+
+## Data model
+
+
+```sql
+CREATE TABLE authors (
+	pid varchar(100) NOT NULL,
+    name varchar(100) NOT NULL,
+    n int,
+    PRIMARY KEY (pid)
+);
+
+CREATE table papers (
+	paper_key varchar(100) NOT NULL,
+    title varchar(1000),
+    authors JSON,
+    year YEAR,
+	another_infos JSON,
+    PRIMARY KEY (paper_key)
+);
+
+CREATE table author_papers (
+	pid varchar(100) NOT NULL,
+    papers JSON,
+    PRIMARY KEY (pid),
+    CONSTRAINT FK_AuthorPapers FOREIGN KEY (pid)
+    REFERENCES authors(pid)
+);
+
+CREATE table author_infos (
+    pid varchar(100) NOT NULL PRIMARY KEY,
+    awards JSON,
+    others JSON,
+    CONSTRAINT FK_AuthorsInfo FOREIGN KEY (pid)
+    REFERENCES authors(pid)
+);
+```
