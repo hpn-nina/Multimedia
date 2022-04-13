@@ -1,8 +1,9 @@
 # This is docker file
 FROM python:3.10
-WORKDIR /multiprojs
-RUN conda create --name web --file requirements.txt
-RUN conda activate web
-COPY requirements.txt requirements.txt
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+WORKDIR /backend
+COPY requirements.txt /backend/
 RUN echo "installing dependencies"
-RUN !pwd
+RUN pip install -r requirements.txt
+COPY . /backend/
