@@ -11,7 +11,7 @@ For further instruction or explaination, pls contact me @lialic.
 **ALL COLUMNS** shall be name as *kebab-case*. For example: author-id, paper-id, ...
 
 ## GOTO 
-[Number of tags in dblp](https://dblp.org/faq/How+are+data+annotations+used+in+dblp+xml.html)
+[Number of tags in dblp](https://dblp.org/faq/How+are+data+annotations+used+in+dblp+xml.html) or [tags](https://dblp.org/faq/16154937.html)
 
 [example.xml](https://dblp.org/pid/08/1510.xml)
 
@@ -23,6 +23,15 @@ Pls download [XAMPP](https://www.apachefriends.org/index.html) and MYSQL Connect
 
 [Data model](https://1drv.ms/u/s!AhZv8ipaWh2mgrdVHhTwJWOP0iklCw)
 
+
+## Tutorial
+To access database, run ```docker-compose up -d``` and open your localhost at 8080
+Run ```docker-compose ps``` to see what is currently running
+To stop the database from running run ```docker-compose stop```
+
+If you cannot access database via adminer pls use your workbench to access.
+
+To check which container is running pls enter ```docker container ls```
 
 ## Data model
 

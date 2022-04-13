@@ -3,7 +3,6 @@ version: '3.1'
 services:
   multimedia-author:
     image: mysql
-    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 123456@Dev
       MYSQL_DATABASE: author
@@ -14,3 +13,18 @@ services:
     image: adminer    
     ports:      
       - "8080:8080"
+
+  backend:
+    build: .
+    command: 
+      - python backend/manage.py migrate
+      - python backend/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456@Dev
+      - MYSQL_NAME=author
+    depends_on:
+      - multimedia-author
