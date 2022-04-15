@@ -83,9 +83,37 @@ def read_and_store_xml(file_name):
     send_query(conn, query)
     
     def get_papers(tree):
-        #TODO
-        
-        return {}
+        r_tags = tree.findall('r')
+        for r_tag in r_tags:
+            for tag in tags:
+                if(len(r_tag.find(tag)) != 0):
+                    paper = r_tag.find(tag)
+                
+                    key = paper.get('key')
+                    mdate = paper.get('mdate')
+                    title = paper.find('title').text
+                    temp_authors = paper.findall('author')
+                    
+                    #TODO pages year volume journal ee url
+                    # With ee pls add  type
+                    # Check type of already exist code
+                    #Check which will be return if find element can not be found
+                    
+                    authors = {}
+                    count = 0
+                    for author in temp_authors:
+                        temp_author = {}
+                        temp_author['name'] = author.text
+                        temp_author['pid'] = author.get('pid')
+                        authors[count] = temp_author
+                        count += 1 
+                        
+                    return {
+                        "key" : key,
+                        "mdate": mdate,
+                        "authors": authors,
+                        "title": title
+                    }
         
     
     papers = get_papers(tree)

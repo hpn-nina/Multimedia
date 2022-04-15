@@ -33,6 +33,10 @@ If you cannot access database via adminer pls use your workbench to access.
 
 To check which container is running pls enter ```docker container ls```
 
+In order to start our project 
+- Using UI, cd to our frontend folder
+Then run ```npm run dev```
+
 ## Data model
 
 
