@@ -23,7 +23,8 @@ def read_and_store_xml(file_name):
         conn = mysql.connector.connect(user=config("MYSQL_USERNAME"),
                                        password=config("MYSQL_ROOT_PASSWORD"),
                                        host=config("MYSQL_HOST"),
-                                       database='author')
+                                       database='author',
+                                       port='3306')
         return conn
     
     def get_tree(file_name):
@@ -83,9 +84,37 @@ def read_and_store_xml(file_name):
     send_query(conn, query)
     
     def get_papers(tree):
-        #TODO
-        
-        return {}
+        r_tags = tree.findall('r')
+        for r_tag in r_tags:
+            for tag in tags:
+                if(len(r_tag.find(tag)) != 0):
+                    paper = r_tag.find(tag)
+                
+                    key = paper.get('key')
+                    mdate = paper.get('mdate')
+                    title = paper.find('title').text
+                    temp_authors = paper.findall('author')
+                    
+                    #TODO pages year volume journal ee url
+                    # With ee pls add  type
+                    # Check type of already exist code
+                    #Check which will be return if find element can not be found
+                    
+                    authors = {}
+                    count = 0
+                    for author in temp_authors:
+                        temp_author = {}
+                        temp_author['name'] = author.text
+                        temp_author['pid'] = author.get('pid')
+                        authors[count] = temp_author
+                        count += 1 
+                        
+                    return {
+                        "key" : key,
+                        "mdate": mdate,
+                        "authors": authors,
+                        "title": title
+                    }
         
     
     papers = get_papers(tree)
@@ -130,3 +159,6 @@ def read_and_store_xml(file_name):
         conn.close()
 
         
+        
+file_name = "../examples/example.xml"
+read_and_store_xml(file_name)

@@ -12,13 +12,13 @@ services:
   admin:    
     image: adminer    
     ports:      
-      - "8080:8080"
+      - "8081:8081"
 
   backend:
     build: .
     command: 
       - python backend/manage.py migrate
-      - python backend/manage.py runserver 0.0.0.0:8000
+      - python backend/manage.py runserver
     volumes:
       - .:/backend
     ports:
