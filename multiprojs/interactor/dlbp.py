@@ -23,7 +23,8 @@ def read_and_store_xml(file_name):
         conn = mysql.connector.connect(user=config("MYSQL_USERNAME"),
                                        password=config("MYSQL_ROOT_PASSWORD"),
                                        host=config("MYSQL_HOST"),
-                                       database='author')
+                                       database='author',
+                                       port='3306')
         return conn
     
     def get_tree(file_name):
@@ -158,3 +159,6 @@ def read_and_store_xml(file_name):
         conn.close()
 
         
+        
+file_name = "../examples/example.xml"
+read_and_store_xml(file_name)
